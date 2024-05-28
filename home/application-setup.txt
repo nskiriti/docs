@@ -1,0 +1,33 @@
+Frontend
+	HTML, CSS, Javascript // No installation
+	NodeJs
+		https://nodejs.org/en/download/
+		NPM
+			typescript
+			angular
+			bootstrap
+	IDE 
+		Visual Studio Code
+			https://code.visualstudio.com/download
+	Application
+		hrms-ui
+==
+Middleware
+	Java SE Development Kit 8u321
+		https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
+	apache-maven-3.8.5
+		https://maven.apache.org/download.cgi
+	IDE
+		Eclipse 2020-06
+			https://www.eclipse.org/downloads/packages/release/2020-06
+	Application
+		hr-service.zip
+==
+Backend
+	Oracle Database 21c Express Edition
+		https://www.oracle.com/in/database/technologies/xe-downloads.html
+	IDE
+		SQL Developer 21.4.3 Downloads
+			https://www.oracle.com/tools/downloads/sqldev-downloads.html
+	Application
+		hr-schema.sql

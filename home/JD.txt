@@ -1,0 +1,20 @@
+JD	-	Job Description
+
+Opportunity
+	Permanent
+		Wipro		Hire
+		Dell		Client
+		Benefits	More
+		Salary		Less
+	Contractual
+		Tejoma 		Hire
+		Wipro		Deploy
+		Dell		Client
+		Benefits	Less
+		Salary		More
+	Freelancing
+		Wipro		Hire
+		Dell		Client
+		Benefits	less
+		Salary		High
+		

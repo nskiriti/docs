@@ -1,0 +1,105 @@
+Profession	:	Student	|	Software Engineer			|	IT Employee
+Skill		:	MPC		|	Web Application Developer 	|	Fullstack Developer
+Other Skills:	100 + Skills are present
+--
+Skills
+Primary		: 	Maths		Frontend   100	90
+Secondary	:	Physics		Middleware 100	70
+Tertiary	:	Chemistry	Backend    100	70
+--
+Frontend	:	View Layer		:	Forntend Developer 	| UI Developer
+Middleware	:	Controller Layer:	Middleware Developer| Java Developer
+Backend		:	Model Layer		:	Database Developer	| Database Developer 
+==
+User = Browser = Server
+==
+Frontend : Frontend Developer
+Languages
+	HTML		Angular Framework,	React Framework
+	CSS			Bootstrap Framework
+	JavaScript	NodeJS Framework
+	--
+	HTML 		:	Raw Content
+	CSS  		: 	Beautification
+	JavaScript	:	Intelligence
+==
+	CSS
+		Bootstrap CSS
+		Fontaswome CSS
+		etc...,
+	Js
+		JQuery
+		AXIOS
+		AngularJs
+		Angular
+
+		react
+		knockout
+		require
+		hammer
+		vue
+		etc...,
+	HTML
+		PHP
+		WORDPRESS
+		ASP 
+		JSP
+		etc...,
+IDE
+	NotePad ++, Visual Studio Code.
+==
+Middleware : Middleware Developer
+Languages
+	Java
+		J2SE
+		J2EE
+	IDE	: Eclipse
+	API
+		Spring
+		Spring MVC
+		Springboot
+			10 + dependencies/libraries
+			log4j2
+			hibernate
+			hikaricp
+			Spring data jpa
+			spring cloud
+		Maven
+		Gradle
+	--
+==
+Backend : Database Developer
+	Relational Database Management System
+		SQL Based Databases
+			Open Source
+				Oracle MySQL, Oracle XE, PostgreSQL
+			Licenced	
+				Oracle EE, IBM DB2, MicroSoft SQLServer
+	--
+	Non Relational Database Management System
+		Non SQL Databases
+			Open Source
+				MongoDB, Cassendra
+			Licenced
+				XXX, XXX
+IDE : SQLDeveloper
+--
+Language
+	SQL
+	PL/SQL
+===
+Methodologies : Agile
+==
+SDLC
+JIRA
+GITHUB
+SCRUM
+SPRINT
+serviceNow
+--
+Difference between web site and web app?
+Web Application Developer
+	MVC Architecture
+		View		Frontend	Angular
+		Controller	Middleware	Java
+		Model		Backend		Oracle Database

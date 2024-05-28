@@ -1,0 +1,31 @@
+download jdk
+download maven
+download eclipse
+download hr-service
+--
+install jdk, jre
+update path var with java path
+set JAVA_HOME
+--
+install maven
+update path var with maven path
+set M2_HOME
+--
+install eclipse
+--
+update maven install location in eclipse
+--
+import hr-service maven app into eclipse
+--
+install ojdbc7.jar file using mvn install
+--
+Remote
+https://mvnrepository.com/
+--
+Central Repo
+D:\\work\apache\maven
+--
+Local Repo
+C:\Users\ADMIN\.m2\repository\com\oracle\ojdbc7
+--
+mvn install:install-file -Dfile=D:/apps/lib/ojdbc7-12.1.0.2.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.2 -Dpackaging=jar

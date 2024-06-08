@@ -1,0 +1,40 @@
+Topic							Covered	Practice	Interview
+
+Home							Yes		Yes			Yes
+Introduction					Yes		yes			yes
+Editors							Yes		yes			yes
+Basics							Yes   	Yes			Yes
+Elements						Yes		Yes			Yes
+Attributes						Yes		Yes			Yes
+Headings						Yes 	Yes			Yes
+Paragraphs						Yes		Yes			Yes
+Styles							Yes		Yes			Yes
+Formatting						Yes 	Yes			Yes
+Quotations						Yes		Yes			Yes
+Comments						Yes 	Yes			Yes
+Colors							Yes		Yes			Yes
+Links							Yes		Yes			Yes	
+Images							Yes		Yes			Yes
+Favicon							Yes		Yes			Yes
+Title							Yes 	Yes			Yes
+Tables							Yes		Yes			Yes
+--
+lists							No		No
+block&inline					No		No
+classes							No		No
+id								No		No
+Forms							No		No			No
+Form Attributes					No		No			No
+Form Elements					No		No			No
+	Input types					No		No			No
+	Input Attributes 			No		No			No
+	Input Form Attribues		No		No			No
+page title						No		No
+==
+iframes							No		No
+javascript						No      No 		    No
+file paths						No		No			No
+head							No		No			No
+layout							No 	    No			No
+Responsive						No		No			No
+Semantic						No 	    No

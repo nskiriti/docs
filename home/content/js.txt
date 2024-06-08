@@ -1,0 +1,54 @@
+Topics					covered		practice	interview
+BOM						yes			yes			yes
+DOM						yes			yes			yes
+Home					yes			yes			yes
+Introduction			yes			yes			yes
+Whereto					yes			yes			yes
+Output					yes			yes			yes
+Statements				yes			yes			yes
+Syntax					yes			yes			yes
+comments				yes			yes			yes
+Identifiers
+Reserved Words
+Var						yes			yes			yes
+Let						yes			yes			yes
+Const					yes			yes			yes
+Operators				yes			yes			yes
+Datatype                yes			yes			yes       
+Functions               yes			yes			yes
+Conditions              yes			yes			yes
+Loops                   yes         yes         yes
+Arrays					yes         yes         yes
+Ajax					yes         yes         yes
+Scope					yes         yes         yes
+Hoisting				yes         yes         yes
+Strict Mode				yes         yes         yes
+HTTP Methods
+	GET					yes         yes         yes
+	POST				yes         yes         yes
+	PUT					no        	no        	no
+	Delete				no	        no         	no
+--
+Loop while
+Objects
+Events
+Strings
+Numbers
+Dates
+Math
+Random
+Sets
+Maps
+Typeof
+Type Conversion
+Bitwise
+Regular Expressions
+Precedence
+Errors
+This Keyword
+Arrow Function
+Classes
+Modules
+JSON
+Debugging
+Style guide

@@ -1,23 +1,25 @@
 Topic							Covered	Practice	Interview
 
-Home							Yes		Yes			Yes
-Introduction					Yes		yes			yes
-Editors							Yes		yes			yes
-Basics							Yes   	Yes			Yes
-Elements						Yes		Yes			Yes
-Attributes						Yes		Yes			Yes
-Headings						Yes 	Yes			Yes
-Paragraphs						Yes		Yes			Yes
-Styles							Yes		Yes			Yes
-Formatting						Yes 	Yes			Yes
-Quotations						Yes		Yes			Yes
-Comments						Yes 	Yes			Yes
-Colors							Yes		Yes			Yes
-Links							Yes		Yes			Yes	
-Images							Yes		Yes			Yes
-Favicon							Yes		Yes			Yes
-Title							Yes 	Yes			Yes
-Tables							Yes		Yes			Yes
+Home							No		No			No
+Introduction					No		No			No
+Editors							No		No			No
+Basics							No   	No			No
+Elements						No		No			No
+Attributes						No		No			No
+Headings						No 	    No			No
+Paragraphs						No		No			No
+Styles							No		No			No
+Formatting						No 	    No			No
+Quotations						No		No			No
+Comments						No 	    No			No
+Colors							No		No			No
+
+--
+Links							No		No			No	
+Images							No		No			No
+Favicon							No		No			No
+Title							No 	    No		    No
+Tables							No		No			No
 --
 lists							No		No
 block&inline					No		No

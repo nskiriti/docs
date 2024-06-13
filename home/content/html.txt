@@ -7,7 +7,7 @@ Basics							Yes   	Yes			Yes
 Elements						Yes		Yes			Yes
 Attributes						Yes		Yes			Yes
 Headings						Yes 	Yes			Yes
-Paragraphs						Yes		Yes			No
+Paragraphs						Yes		Yes			Yes
 Styles							Yes		No			No
 Formatting						Yes     No			No
 Quotations						Yes		No			No

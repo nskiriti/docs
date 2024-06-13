@@ -1,7 +1,7 @@
 What is style attribute?
 	Setting the style of a html element can be done by using style attribute.
 Syntax:
-	<tagname style="property: value; property: value;">
+	<tagname style="property:value;">
 --
 How to apply background color to an element?
 	background-color property defines the background color for an HTML element.

@@ -8,9 +8,9 @@ Elements						Yes		Yes			Yes
 Attributes						Yes		Yes			Yes
 Headings						Yes 	Yes			Yes
 Paragraphs						Yes		Yes			Yes
-Styles							Yes		No			No
-Formatting						Yes     No			No
-Quotations						Yes		No			No
+Styles							Yes		Yes			Yes
+Formatting						Yes     Yes			Yes
+Quotations						Yes		Yes			Yes
 Comments						Yes	    No			No
 Colors							Yes		No			No
 Links							Yes 	No			No	
@@ -40,3 +40,14 @@ head							No		No			No
 layout							No 	    No			No
 Responsive						No		No			No
 Semantic						No 	    No
+
+<!DOCTYPE Html>
+<html lang="en">
+	<head>
+		<title>  </title>
+	</head>
+	<body>
+	
+	</body>
+
+</html>

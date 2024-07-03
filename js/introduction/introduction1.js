@@ -3,4 +3,6 @@ function externalJavascript(){
 }
 function changeImage(){
 	document.getElementById("image1").src="bulbon.gif";
+	document.getElementById("b1").style.color="red";
+	document.getElementById("p4").style.visibility="hidden";
 }

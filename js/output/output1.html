@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Output</title>
+</head>
+
+<body>
+	<!--By using innerHTML-->
+	<h3>innerHTML</h3>
+	<p id="para1">This is a Para from HTML</p>
+	<script>
+		document.getElementById("para1").innerHTML = 
+		"This is a Para from Javascript";
+	</script>
+	<!--By using console.log()-->
+	<h3>Please look into the console window</h3>
+	<script>
+		console.trace("This is a trace method");
+		console.info("This is a info message");
+		console.log("This is a log message");
+		console.warn("This is a warning message");
+		console.error("This is a error message");
+	</script>
+	<!--By using document.write()-->
+	<h3>document.write()</h3>
+	<p>Using document.write() after an HTML document is loaded, 
+		it will delete all existing elements from body element
+		and writes the data into body element.
+	</p>
+	<button onclick="document.write('Overridden text')">Click to override</button>
+	<!--By using window.alert()-->
+	<h3>window.alert()</h3>
+	<p>This is window.alert()</p>
+	<button onclick="transferAlert()">NEFT Transfer</button>
+	<script>
+		function transferAlert() {
+			window.alert("Are you sure want to transfer the money");
+		}
+	</script>
+	<br>
+	<!--By using window.print()-->
+	<br>
+	<button onclick="window.print()">Print this page</button>
+</body>
+
+</html>

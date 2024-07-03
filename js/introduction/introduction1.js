@@ -1,9 +1,8 @@
-function main() {
-	document.getElementById("head").innerHTML = "Introduction to JS";
+function externalJavascript(){
+	document.getElementById("p3").innerHTML="This text is from external js file"
 }
-function bulbOff(){
-	document.getElementById("bulb").src="bulboff.gif";
-}
-function bulbOn(){
-	document.getElementById("bulb").src="bulbon.gif";
+function changeImage(){
+	document.getElementById("image1").src="bulbon.gif";
+	document.getElementById("b1").style.color="red";
+	document.getElementById("p4").style.visibility="hidden";
 }

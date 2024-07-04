@@ -1,0 +1,61 @@
+What are Variables?
+	Variables are containers or storage-location for storing the values.
+	Example:
+		x = 123;
+		y = 124;
+		z = x + y;
+--
+In how many ways we can declare variables in javascript?
+4 Ways
+	nothing
+	var
+	let
+	const
+--
+nothing
+	Syntax:
+		variable_name = variable_value;
+		declaration = definition;
+	Example:
+	employeeId = 101;
+	firstName = "Ravi";
+--
+var
+	Syntax:
+		var variable_name;
+		var declaration;
+	Example:
+		var employeeId;
+		var firstName;
+--
+What is undefined?
+	A variable declared without a value/definition will have the value as 
+	undefined.
+	A variable declared without a value/definition will have the type as 
+	undefined.
+--
+What is NaN?
+	NaN is short for "Not-a-Number".
+	NaN is a number that is not a legal number.
+--
+What are disadvantages of using var?
+	variable re-declaration is possible.
+	variable usage before variable declaration is possible.
+--
+When to use var?
+	We should not use var, use let and const.
+	If you want run your code in older browser, you must use var.
+--
+Why we should not use var?
+	global scope.
+	re-declaration is possible.
+	usage before declaration is possible.
+--
+FAQs
+==
+What is the difference between undefined, NaN?
+What is the difference between var, let and const?
+			Scope	Redeclare	Reassign	Hoisted		Binds this
+	var		No		Yes			Yes			Yes			Yes
+	let		Yes		No			Yes			No			No
+	const	Yes		No			No			No			No

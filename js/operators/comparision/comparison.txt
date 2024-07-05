@@ -1,0 +1,34 @@
+JavaScript Comparison Operators?
+Comparison operators can be used in conditional statements to compare values and
+take action depending on the result.
+	Operator	Description
+	   ==		equal to
+	   ===		equal value and equal type
+	   !=		not equal
+	   !==		not equal value or equal type
+	   >		greater than
+	   <		less than
+	   >=		greater than or equal to
+	   <=		less than or equal to
+--
+Boolean is the result
+	All comparison operators return a boolean value:
+		true	- means "yes", "correct", or "the truth".
+		false	- means "no", "wrong", or "not the truth".
+--
+String Comparison
+	To compare Strings, JavaScript uses the "dictionary" or “lexicographical” 
+	order.
+	In other words, strings are compared letter-by-letter.
+	Example:
+		let x = "Hello";
+		let y = "Hi";
+		console.log(x > y); //false
+		console.log(x < y); //true
+
+Note:
+	For instance, case matters. A capital letter "A" is not equal to the 
+	lowercase "a". 
+	Which one is greater? The lowercase "a".
+	Because the lowercase character has a greater index in the internal encoding
+	table JavaScript uses(Unicode).

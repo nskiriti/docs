@@ -1,0 +1,8 @@
+What is Const?
+	const keyword was introduced in ES6 (2015).
+	it cannot be Redeclared.
+	it cannot be Reassigned.
+	it has Block Scope.
+--
+When to use JavaScript const?
+	if you don't want to change the value of the variable.

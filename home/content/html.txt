@@ -11,10 +11,10 @@ Paragraphs						Yes		Yes			Yes
 Styles							Yes		Yes			Yes
 Formatting						Yes     Yes			Yes
 Quotations						Yes		Yes			Yes
-Comments						Yes	    No			No
+Comments						Yes	    Yes			Yes
 Colors							Yes		No			No
-Links							Yes 	No			No	
-Images							Yes		No			No
+Links							Yes 	Yes			Yes	
+Images							Yes		Yes			Yes
 
 --
 Favicon							No		No			No
@@ -41,7 +41,7 @@ layout							No 	    No			No
 Responsive						No		No			No
 Semantic						No 	    No
 
-<!DOCTYPE Html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>  </title>

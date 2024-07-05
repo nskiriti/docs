@@ -1,31 +1,31 @@
 Topics					covered		practice	interview
-BOM						yes			yes			yes
-DOM						yes			yes			yes
-Home					yes			yes			yes
-Introduction			yes			yes			yes
-Whereto					yes			yes			yes
-Output					yes			yes			yes
-Statements				yes			yes			yes
-Syntax					yes			yes			yes
-comments				yes			yes			yes
+BOM						YES			No			No
+DOM						Yes			No			No
+Home					Yes			No			No
+Introduction			YES			No			No
+Whereto					YES			No			No
+Output					YES			No			No
+Statements				YES			No			No
+Syntax					YES			No			No
+comments				YES			No			No
 Identifiers
 Reserved Words
-Var						yes			yes			yes
-Let						yes			yes			yes
-Const					yes			yes			yes
-Operators				yes			yes			yes
-Datatype                yes			yes			yes       
-Functions               yes			yes			yes
-Conditions              yes			yes			yes
-Loops                   yes         yes         yes
-Arrays					yes         yes         yes
-Ajax					yes         yes         yes
-Scope					yes         yes         yes
-Hoisting				yes         yes         yes
-Strict Mode				yes         yes         yes
+Var						YES			YES			YES
+Let						No			No			No
+Const					No			No			No
+Operators				No			No			No
+Datatype                No			No			No       
+Functions               No			No			No
+Conditions              No			No			No
+Loops                   No         No         No
+Arrays					No         No         No
+Ajax					No         No         No
+Scope					No         No         No
+Hoisting				No         No         No
+Strict Mode				No         No         No
 HTTP Methods
-	GET					yes         yes         yes
-	POST				yes         yes         yes
+	GET					No         No         No
+	POST				No         No         No
 	PUT					no        	no        	no
 	Delete				no	        no         	no
 --
@@ -52,3 +52,13 @@ Modules
 JSON
 Debugging
 Style guide
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>  </title>
+	</head>
+	<body>
+	
+	</body>
+
+</html>

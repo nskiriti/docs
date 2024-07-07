@@ -11,9 +11,9 @@ comments				YES			No			No
 Identifiers
 Reserved Words
 Var						YES			YES			YES
-Let						No			No			No
-Const					No			No			No
-Operators				No			No			No
+Let						Yes			No			No
+Const					Yes			No			No
+Operators				Yes			No			No
 Datatype                No			No			No       
 Functions               No			No			No
 Conditions              No			No			No

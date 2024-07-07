@@ -17,15 +17,15 @@ Operators				YES			No			No
 Datatype                No			No			No       
 Functions               No			No			No
 Conditions              No			No			No
-Loops                   No         No         No
-Arrays					No         No         No
-Ajax					No         No         No
-Scope					No         No         No
-Hoisting				No         No         No
-Strict Mode				No         No         No
+Loops                   No          No          No
+Arrays					No          No          No
+Ajax					No          No          No
+Scope					No          No          No
+Hoisting				No          No          No
+Strict Mode				No          No          No
 HTTP Methods
-	GET					No         No         No
-	POST				No         No         No
+	GET					No          No         No
+	POST				No          No         No
 	PUT					no        	no        	no
 	Delete				no	        no         	no
 --

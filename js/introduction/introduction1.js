@@ -6,3 +6,7 @@ function changeImage(){
 	document.getElementById("b1").style.color="red";
 	document.getElementById("p4").style.visibility="hidden";
 }
+function changeLink(){
+	document.getElementById("a1").href="https://olympics.com/en/paris-2024";
+	document.getElementById("a1").target="_blank"
+}

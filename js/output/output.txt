@@ -33,3 +33,4 @@ window.print()
 --
 HTML <-- Javascript <--java <-- database
 What is difference between window and document object?
+Check about document.write replacing existing content?

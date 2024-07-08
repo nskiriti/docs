@@ -1,0 +1,9 @@
+What is IIFE?
+	Immediate Invoke Function Execution?
+Usage of IIFE functions?
+What type of logic that we have to write in IIFE function?
+	connection logic with middleware.
+	single sign on logic.
+	if we want to execute some logic before body tag loading.
+	etc...,
+What is the difference with regular function?

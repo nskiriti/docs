@@ -1,0 +1,75 @@
+What is function?
+	function is a block of code designed to perform a particular task.
+	function is executes when "something" invokes it(calls it).
+syntax:
+	function <return_type> function_name(
+		<parameter1, parameter2, parameter3, ...parameter-n>) {
+		// block of code [sometime we will write 100 lines of code] 
+		// designed to perform a particular task
+		<return value>;
+	}
+Example:
+	function boolean createEmployee(firstName, lastName, phoneNo){
+		// block of code [sometime we will write 100 lines of code] 
+		// designed to perform a particular task
+	}
+	parameters are listed inside the parenthesis() in the function definition.
+	arguments are the values received by the function when it is invoked.
+	Inside the function, the arguments (parameters) behave as local variables.
+====
+What is function invocation?
+	The code inside the function will execute when "something" invokes(calls) 
+	the function.
+Example:
+	createEmployee("ravi" ,"kumar", 9912456789);
+====	
+What is return statement?
+	When function reaches "return" statement, it will returns the value to the 
+	caller function and it will stop executing the function.
+	We have to write return statement at the end of the method.
+	Syntax
+	function functionName () {
+		//block of code
+		return something;
+	}
+	Example:
+	function addition(n1, n2) {
+		let res = n1 + n2;
+		return res;
+	}
+====
+Why Functions?
+	You can reuse code: Define the code once, and use it many times.
+	You can use the same code many times with different arguments, to produce 
+	different results.
+--
+Functions Used as Variable Values
+	syntax
+	let variableName = functionName();
+	Example
+	let variableValue = addition(10, 20);
+--
+Local Variables
+	Variables declared within a function, become LOCAL to the function.
+	Local variables can only be accessed from within the function.
+	Since local variables are only recognized inside their functions.
+	Variables with the same name can be used in different functions.
+	Local variables are created when a function starts, and deleted when the 
+	function is completed.
+	Syntax
+	function functionName () {
+		let n1;
+		let n2;
+		let res;
+		//block of code
+		return res;
+	}
+	Example
+	function addition() {
+		let n1 =10;
+		let n2 =20;
+		let res = n1 + n2;
+		//block of code
+		return res;
+	}
+--

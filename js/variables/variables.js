@@ -5,8 +5,8 @@ function main() {
 	//var1();
 	//nan();
 	//redeclaration();
-	usageBeforeDeclaration();
-	//blockScope();
+	//usageBeforeDeclaration();
+	blockScope();
 	console.log("main method end");
 }
 function nothing() {

@@ -1,0 +1,40 @@
+What is While loop?
+	The while loop loops through a block of code as long as a specified condition is true.
+Syntax:
+  while (condition) {
+  // code block to be executed
+  }
+Example:
+	function whileLoop() {
+	const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+	let text = "";
+	let length = 0;
+	let i = 0;
+	while (i < length) {
+		text += cars[i] + "<br>";
+		console.log(cars[i]);
+		i++
+	}
+    }
+----
+What did Do While loop?
+	The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+Syntax:
+	do {
+	// code block to be executed
+	}
+	while (condition);
+Example:
+	function doWhileLoop() {
+	const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+	let text = "";
+	let length = 0;
+	let i = 0;
+	do {
+		text += cars[i] + "<br>";
+		console.log(cars[i]);
+		i++
+	}
+	while (i < length)
+   }
+----         

@@ -4,10 +4,10 @@ function main() {
 	// ifElseTrue();
 	// ifElseFalse();
 	// ifCondition();
-	// ifElseCondition();
+	 ifElseCondition();
 	// elseIfLadder1();
 	//elseIfLadder2();
-	switchCaseBreak1();
+	//switchCaseBreak1();
 	//switchCaseBreak2();
 }
 

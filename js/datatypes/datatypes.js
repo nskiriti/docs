@@ -1,11 +1,11 @@
 function main() {
   console.log("main function start");
   // undefined1);
-  // null1();
+  null1();
   // number();
   // bigint();
   // string();
-  boolean();
+  //boolean();
   // dynamic();
   // arrays();
   // objects();
@@ -28,7 +28,7 @@ function number() {
   n1 = 9007199254740991;
   console.log("value of n1 = " + n1 + " and type of n1 = " + typeof n1);
   console.log("number function end");
-	let n1 = 9007199254740999;
+	//let n1 = 9007199254740999;
 	console.log(n1);
 	console.log("The value of n1 = " + n1);
 	console.log("The datatype of n1 = " + typeof n1);

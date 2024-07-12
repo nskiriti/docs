@@ -1,7 +1,7 @@
 function main() {
 	console.log("main function start");
-	//loop1(5);
-	loop2(100);
+	loop1(5);
+	//loop2(100);
 	console.log("main function end");
 }
 

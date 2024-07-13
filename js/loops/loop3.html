@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Loops Practice internal Js</title>
+	
+</head>
+
+<body> 
+	<h3>Loops practice internal Js- loops1.js is covered</h3>
+</body>
+	<script>
+	// for loop - increment order
+		for(let i = 0; i <= 10; i++){
+		console.log("student No. " + i );
+		}
+	// for loop - decrement order
+		for(let i = 100; i > 0; i--){
+		console.log("employee No " + i);
+		}
+	// for loop - array
+		
+		let students =["john", "Jacob", "Ravi", "Queen", "William", "Steve"];
+		
+		for(i = 0; i < students.length; i++){
+		console.log("student Index No. " + i + " is " + students[i]);
+		}
+		
+		for(i = 0; i < students.length; i+=2){
+		console.log("student Index No. " + i + " is " + students[i]);
+		}
+		
+		for(i = 1; i <students.length; i+=2){
+		console.log("student Index No. " + i + " is " + students[i]);
+		}
+	
+		for(i = students.length-1; i > 0; i--){
+		console.log("student Index No. " + i + " is " + students[i]);
+		}
+		
+		for(stu of students){
+		console.log("student forof No. " + stu );
+		}
+		
+		
+	</script>
+</html>

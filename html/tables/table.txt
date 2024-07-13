@@ -112,7 +112,7 @@ Example
 HTML Table-Cell Padding
 	Cell padding is space between the cell edges and the cell content. By 
 	default, the padding is set to 0.
-	To add padding on table cells, use pading property.
+	To add padding on table cells, use padding property.
 	If you want to add padding only above the content, use padding-top property 
 	and same for padding-bottom, padding-right, padding-left.
 --

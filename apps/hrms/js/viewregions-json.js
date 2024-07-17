@@ -1,28 +1,7 @@
 function viewRegions(){
 	let data = "";
-	let regions = 
-		[
-			{
-			"regionid": 5,
-			"regionName": "New Zealand"
-			},
-			{
-			"regionid": 1,
-			"regionName": "Europe"
-			},
-			{
-			"regionid": 2,
-			"regionName": "Americas"
-			},
-			{
-			"regionid": 3,
-			"regionName": "Asia"
-			},
-			{
-			"regionid": 4,
-			"regionName": "Middle East and Africa"
-			}
-		];
+	let regions = [];
+	//get the JSON Data from the json file.
 
 		let header = "<tr><th>Region Id</th><th>Region Name</th></tr>"
 		let rows = "";

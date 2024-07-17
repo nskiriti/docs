@@ -40,5 +40,5 @@ function viewregions(){
 	$("#p3").html(function(){
 		return "This is new info using function in jquery";
 	});
-	
+	$("h4").addClass("p4");
 }

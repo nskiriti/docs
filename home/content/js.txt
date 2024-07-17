@@ -17,7 +17,8 @@ Operators				YES			No			No
 Datatype                No			No			No       
 Functions               No			No			No
 Conditions              No			No			No
-Loops                   No          No          No
+Loops  					No			No			No
+New Keyword             No          No          No
 Arrays					No          No          No
 Ajax					No          No          No
 Scope					No          No          No

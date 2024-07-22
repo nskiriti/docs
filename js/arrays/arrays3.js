@@ -99,15 +99,6 @@ let splitNumbers1 = numbers1.map(function(ele){
 });
 console.log(splitNumbers1);
 
-
-
-
-
-
-
-
-
-
 // //Example 6: Given an array of strings, filter out all the strings that are palindromes.
 let phrases = ["madam", "hello", "racecar", "world", "level", "javascript"];
 let newPhrases = phrases.filter(function(ele){

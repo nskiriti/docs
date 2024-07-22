@@ -2,7 +2,7 @@ function main(){
    // sync();    
    async();
 };
-
+// This is the method to get the all the countries in a synchronous manner - This is API
 function sync(){
     console.log("sync method start");
     let url = "https://restcountries.com/v3.1/all";
@@ -30,6 +30,7 @@ function sync(){
     }
     console.log("sync method end");
 }
+// This is the method to get the all the countries in asynchronous manner - This is API
 function async(){
     console.log("async method start");
     let url = "https://restcountries.com/v3.1/all";

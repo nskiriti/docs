@@ -1,0 +1,106 @@
+HTML Lists
+	lists allows us to group a set of related items in lists.
+Unordered List
+	Unordered list starts with <ul> tag and each list item starts with <li> tag.
+	The list items will be marked with bullets by default. 
+	Here we are having some values to define the style of the list item marker 
+	by using list-style-type property.
+--
+Example
+	Disc
+		<ul style="list-style-type: disc">
+	Square
+		<ul style="list-style-type: square">
+	none
+		<ul style="list-style-type: none">
+	circle
+		<ul style="list-style-type: circle">
+--
+Nested HTML List
+	Lists can be nested, it means element contains other element.
+	Example
+		<li>milk</li>
+		<li>tea</li>
+		<ul>
+			<li>green tea</li>
+			<li>black tea<li>
+		</ul>
+--
+Horizontal List with CSS
+	lists can be styled in many different ways with CSS.
+	One popular way is to style a list horizontally, to create a navigation 
+	menu.
+--
+Ordered list
+	ordered list starts with an <ol> tag. Each list item starts with <li> tag.
+	An ordered list can be numerical or alphabetical. By default, ordered list 
+	is numerical.
+	The type attribute of <ol> tag defines the type of the list item marker.
+--
+Ordered list types.
+	type="1": The list items will be numbered with numbers (by default).	
+	type="A": The list items will be numbered with uppercase letters.
+	type="a": The list items will be numbered with lowercase letters.
+	type="I": The list items will be numbered with uppercase Roman Numbers.
+	type="i": The list items will be numbered with lowercase Roman Numbers.
+--
+Control List Counting
+	By default, an ordered list will start count from 1, if you want to start 
+	from a specified number then use start attribute.
+	Example
+		<ol start="50">
+Nested HTML Lists
+		Lists can be nested it means that list contain other lists.
+--
+HTML Description Lists
+	A description list is a list of terms with a description of each term.
+	The <dl> tag defines the description list.
+	The <dt> tag defines the description term.
+	The <dd> tag describes the each term.
+-----
+FAQs
+What are the types of lists in html?
+What are the difference between ol, ul and dl?
+What is the unordered list?
+What is default list style type for unordered list?
+What are the available list style types for unordered list?
+Where we will use unordered list in web application development?
+	To implement web application navigation, will use unordered list.
+How to align list horizontally?
+	By using css float property
+	example:
+		float:left;
+What is the ordered list?
+What are the difference types of ordered list?
+How to start the ordered list specific number?
+	By using start attribute of ordered list.
+	FAQs
+
+	What are the lists types in html?
+	In the html there are 3 list types is there:
+		Order List
+		Unordered List
+		Data Lits
+		
+What are the difference between  ul, ol and dl?
+What is unordered list?
+What is the default list style type for unordered list ?
+What are available list style types for unordered list?
+Where we will use unordered list in web application development?
+	To implement the web application navigation we will use unordered list.
+----
+How to align list horizontally?
+		By using CSS float property
+	Example:
+		float:left;
+----
+What is the ordered list?
+What are difference types of ordered list?
+How to start the ordered list specific number?
+	By using start attribute for attribute of ordered list.
+----
+FAQs
+How to implement web page navigation?
+Where we will use lists in web application development?
+		
+

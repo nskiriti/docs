@@ -1,0 +1,36 @@
+What is html class attribute?
+    The HTML class attribute is used to specify a class for an HTML element.
+    Multiple HTML elements can share the same class.
+    The class attribute can be used on any HTML element.
+    The class name is case sensitive.
+    syntax:
+        <div class="class-name"></div>
+-------
+What is uses of the class attribute?
+    The class attribute is often used to point to a class name in a style sheet. 
+    It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+    Example for html and css:
+
+        <style>
+        .classname {
+            // write your code
+        }
+        </style>
+        <body>
+        <div class="classname"> classAttribute </div>
+        </body>
+--------
+Multiple Classes attributes:
+    HTML elements can belong to more than one class.
+    To define multiple classes, separate the class names with a space.
+    Example:
+        <h2 class="city main">London</h2>  //multiple classes
+        <h2 class="city">Paris</h2>        //single class
+--------
+Different Elements Can Share Same Class:
+    Different HTML elements can point to the same class name.
+    Both class attribute names must be same.
+    Example:
+        <h2 class="city">London</h2>
+        <p class="city">Paris</p> 
+        <div class="city">Paris</div>

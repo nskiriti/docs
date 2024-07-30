@@ -1,0 +1,17 @@
+value
+readonly
+disabled
+size
+maxlength
+min
+max
+multiple
+pattern
+placeholder
+required
+step
+autofocus
+height
+width
+list
+autocomplete

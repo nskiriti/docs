@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>form input types</title>
+</head>
+
+<body>
+	<form action="techmahindra/student_registration.jsp" method="post" novalidate>
+		<label for="firstName">First Name * :</label>
+		<input type="text" id="firstName" name="firstName" value="" autocomplete="off"></input><br><br>
+		<label for="lastName">Last Name * :</label>
+		<input type="text" id="lastName" name="lastName" value=""></input><br><br>
+		<input type="color"></input><br><br>
+		<input type="date"></input><br><br>
+		<input type="email"></input><br><br>
+		<input type="file"></input><br><br>
+		<input type="image"></input><br><br>
+		<input type="number" min="1" max="100"> </input><br><br>
+		<input type="password"> </input><br><br>
+		<input type="time"> </input><br><br>
+		<input type="range" min="1" max="100"> </input><br><br>
+		<!--gender selection-->
+		<input type="radio" id="male" name="gender">
+		<label for="gender">Male</label>
+		<input id="female" name="gender" type="radio">
+		<label for="gender">Female</label>
+		<input id="other" name="gender" type="radio">
+		<label for="gender">Other</label>
+		</input><br>
+		<!--Languages selection-->
+		<input type="checkbox" id="male" name="languages">
+		<label for="languages">HTML</label>
+		<input id="female" name="languages" type="checkbox">
+		<label for="languages">CSS</label>
+		<input id="other" name="languages" type="checkbox">
+		<label for="languages">Javascript</label>
+		<input type="submit" value="Save"></input>
+	</form>
+</body>
+
+</html>

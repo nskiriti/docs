@@ -1,16 +1,16 @@
 function main() {
-	// ifTrue();
+	 ifTrue();
 	// ifFalse();
 	// ifElseTrue();
 	// ifElseFalse();
 	// ifCondition();
-	 ifElseCondition();
+	// ifElseCondition();
 	// elseIfLadder1();
 	//elseIfLadder2();
 	//switchCaseBreak1();
 	//switchCaseBreak2();
 }
-
+main();
 function ifTrue() {
 	if (1 == 1) {
 		console.log("ifTrue() true Condition");

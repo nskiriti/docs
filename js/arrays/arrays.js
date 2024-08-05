@@ -1,7 +1,7 @@
 function main() {
 	console.log("This is main method start");
 	// CRUD
-	// stringType();
+	stringType();
 	// emptyArray();
 	// emptyArrayWithNewKeyword();
 	// arrayWithInitialIndex();
@@ -10,6 +10,7 @@ function main() {
 	// updateEmployees();
 	console.log("This is main method end");
 }
+main();
 
 function stringType() {
 	let employee = "Ravi";

@@ -9,8 +9,8 @@ function main(){
         console.log("callback function start");
         if(xhr.status == 200 && xhr.readyState == 4){
             regions = xhr.response;
-            // console.log(typeof(regions));
-            // console.log(regions);
+            console.log(typeof(regions));
+            console.log(regions);
             regions = JSON.parse(xhr.response);
             console.log(regions);
             for(let region of regions){
@@ -19,7 +19,7 @@ function main(){
             };
         let data = header + rows;
         console.log(data);   
-        document.getElementById("table").innerHTML = data; 
+        document.getElementById("table").innerHTML = "<table>"+data+"</table>"; 
 
         }
 

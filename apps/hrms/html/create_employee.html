@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create employee form</title>
+    <script src="..\js\create_employee_ajax.js"></script>
 </head>
+
 <body>
-    <>
-    
+    <h3>Employee Registration form</h3>
+    <lable for="employeeId">Employee ID</lable>
+    <input id="employeeId" type="text"></input><br>
+    <lable for="firstName">First Name</lable>
+    <input id="firstName" type="text"></input><br>
+    <lable for="lastName">Last Name</lable>
+    <input id="lastName" type="text"></input><br>
+    <lable for="email">Email</lable>
+    <input id="email" type="email"></input><br>
+    <lable for="phoneNumber">Phone Number</lable>
+    <input id="phoneNumber" type="text"></input><br>
+    <lable for="hireDate">Hire Date</lable>
+    <input id="hireDate" type="date" ></input><br>
+    <lable for="salary">Salary</lable>
+    <input id="salary" type="text"></input><br>
+    <lable for="jobId">Job Id</lable>
+    <input id="jobId" type="text"></input><br>
+    <lable for="commisionPct">Commison %</lable>
+    <input id="commisionPct" type="text"></input><br>
+    <lable for="managerId">Manager Id</lable>
+    <input id="managerId" type="text"></input><br>
+    <lable for="departmentId">Department Id</lable>
+    <input id="departmentId" type="text"></input><br><br>
+
+
+    <button onclick="createemployee();">Submit</button>
+    <div id="message"></div>
+
 </body>
+
 </html>

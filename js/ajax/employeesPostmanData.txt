@@ -1,0 +1,26 @@
+{
+      "employeeId": -1,
+      "firstName": "Sai",
+      "lastName": "Kireeti",
+      "email": "nskiriti@gmail.com",
+      "phoneNumber": "9701156217",
+      "hireDate": "2024-06-01",
+      "salary": 24000,
+      "jobId": "AD_PRES",
+      "commisionPct": null,
+      "managerId": null,
+      "departmentId": 90
+    }
+{
+      "employeeId": -2,
+      "firstName": "Ravi",
+      "lastName": "Kumar",
+        "email": "kumarravi@gmail.com",
+        "phoneNumber": "9916286789",
+        "hireDate": "2024-06-01",
+        "salary": 120000,
+        "jobId": "AD_PRES",
+        "commisionPct": null,
+        "managerId": null,
+        "departmentId": 90
+      }

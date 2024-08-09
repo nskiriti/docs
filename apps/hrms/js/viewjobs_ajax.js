@@ -2,22 +2,26 @@ function main(){
     let xhr =new XMLHttpRequest();
     xhr.open("GET", "http://localhost:6010/jobs/", true);
     xhr.send();
-    let jobs = [];
+    let responseObject = {};
+    let jobs = [];    
     xhr.onload = function(){
         console.log("callback function starts");
-        if(xhr.status == 200){
+        if(xhr.status == 200 && xhr.readyState == 4){
             console.log(xhr.response);
-            jobs = JSON.parse(xhr.response);
-            console.log(jobs.result);
-            let header = "<tr><th>jobId</th><th>jobTitle</th><th>minSalary</th><th></th></tr>"
+            responseObject = JSON.parse(xhr.response);
+            console.log(responseObject.status);
+            console.log(responseObject.message);
+            console.log(responseObject.result);
+            jobs = responseObject.result;
+            let header = "<tr><th>jobId</th><th>jobTitle</th><th>minSalary</th><th>maxSalary</th></tr>"
             let data = "";
             let rows = "";
-            for(let ele of jobs.result){
-                let row = "<tr><td>"+ ele.jobId+"</td><td>"+ele.jobTitle+"</td><td>"+ele.minSalary+"</td><td>"+ele.maxSalary+"</td></tr>";
+            for(let job of jobs){
+                let row = "<tr><td>"+ job.jobId+"</td><td>"+job.jobTitle+"</td><td>"+job.minSalary+"</td><td>"+job.maxSalary+"</td></tr>";
                 rows = rows + row;
             };
             data = header + rows;
-            document.getElementById("message").innerHTML = data;
+            document.getElementById("message").innerHTML ="<table>"+data+"</table>" ;
         };
     };
 };

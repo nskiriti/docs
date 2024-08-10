@@ -73,6 +73,11 @@ let newPeople = people.map(function(ele, index, arr){
 });
 console.log(newPeople);
 
+let newPeople2 = people.map(function(ele){
+    return ele.name + ele.age
+});
+console.log(newPeople2);
+
 //Example 1: Convert an array of objects into an array of strings with 
 //a specific format.
 

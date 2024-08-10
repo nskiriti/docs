@@ -1,0 +1,123 @@
+What are the popular databases?
+MySQL			Oracle
+PostgreSQL		Postgre
+Oracle			Oracle
+SQLServer		Microsoft
+DB2				IBM
+
+How to download oracle database?
+// TODO
+How to install oracle database?
+// TODO
+How to connect oracle database in windows?
+	Press Window + S, Then it will opens the search bar.
+	Type sql in the search bar, then it will show RUN SQL command Line 
+	application.
+	Click on SQL command line application.
+	Then it will open sql command line application in the command prompt.
+	Then we have to connect sys user with the below command.
+	sql> conn sys as sysdba;
+	It will ask you provide the password so please provide the sys password 
+	(oracle) and press enter.
+	If password is correct it will shows as connected.
+--
+What is Schema?
+	Schema is the logical representation of a database objects.
+	It include tables, views, packages, functions, procedures, primary key, 
+	foreign key and etc...
+	Example:
+		Class Teacher.
+What is User?
+	User is owner of the schema objects
+	We will crete users and will give permissions to access schema objects.
+	Example
+		Teachers
+What is the difference between schema and user?
+	If there is no users for Schema, then schema acts like a user.
+--
+How to connect HR Schema in Oracle database?
+	Connect Oracle database with sys user
+	Connect hr schema by typing the below command
+	sql> conn hr;
+	it will ask you to provide the password so please provide the sys password 
+	(hr) and press enter.
+	If password is correct it will shows as connected.
+--
+How to check the sysdate in oracle database?
+	sql> select sysdate from dual;
+--
+How to check the systime in oracle database?
+	Sql> select systimestamp from dual;
+--
+What is DUAL in SQL?
+	It is a table that is automatically created by Oracle Database.
+	DUAL is a table, available in SYS schema but is accessible by the name DUAL 
+	to all users with in the schema and other schema users.
+	It has one column, DUMMY, defined to be VARCHAR2(1), and contains one row 
+	with a value X.
+--
+How to check all the tables and views from the schema?
+Sql> select * from tab;
+--
+How to find number of rows in a table;
+Syntax
+	select count(*) from table_name;
+Example
+	select count(*) from employees;
+--
+How to see the table description in database?
+Syntax
+	Sql> desc table_name
+Example
+ 	Sql> desc employees;
+--
+How to unlock hr schema in oracle database?
+	ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
+How to connect hr schema?
+	Press Window + S, Then it will opens the search bar.
+	Type sql in the search bar, then it will show RUN SQL command line application.
+	Click on SQL command line application.
+	Then it will open sql command line application in the command prompt.
+	Then we have to connect sys user with the below command.
+	sql> conn hr;
+	it will ask you provide the password so please provide the sys password (hr)
+	and press enter. If password is correct it will shows as connected.
+--
+How to see all records from the table?
+	Syntax
+		select * from <table-name>;
+	Example
+		select * from employees;
+--
+How to create an schema in sql?
+	syntax:
+	create user schema_name identified by schema_password;
+	example:
+	create user dms identified by dms;
+	create user nikhitha identified by nikhitha;
+How to provide privileges to the user in oracle database?
+Syntax:
+	grant connect to userName;
+	grant all privileges to userName identified by password;
+Example:
+	grant connect to dms;
+	grant all privileges to dms identified by dms;
+--
+//TODO
+What is DBMS?
+What is RDBMS?
+What is Table?
+How to create a table?
+What is View?
+How to create a View?
+What is the difference between table and view?
+What is Normalization?
+	4 rules
+What is the difference between DDL DML DTL?
+What is the difference between commit and rollback?
+setAutoCommit = true;
+setAutoCommit = false;
+What is the difference between delete, drop, truncate?
+		delete 		rows based on condition
+		drop 		table	
+		truncate	all rows

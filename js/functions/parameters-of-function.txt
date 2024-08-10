@@ -1,0 +1,17 @@
+What are the function parameters?
+parameters are the names listed in the function definition.
+parameters will acts as a local variables within the function.
+arguments are the real values passed to (and received by) the function.
+Rules:
+    do not specify data types for parameters.
+    do not perform type checking on the passed arguments.
+    do not check the number of arguments received.
+    missing parameter default values are undefined.
+    parameter values are replaced with arguments.
+    no parameters ()
+    one parameters (p1)
+    two parameters (p1, p2)
+    unlimited parameters (...params)
+    arguments are in a array object called "arguments"
+    arguments are passed by a value.
+    objects are passed by reference.

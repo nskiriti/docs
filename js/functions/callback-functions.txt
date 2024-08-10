@@ -1,0 +1,16 @@
+Who JavaScript functions will executes?
+JavaScript functions are executed in the sequence they are called.
+Not in the sequence they are defined.
+JavaScript functions are executed synchronously by default.
+Not in the asynchronously.
+--
+What are callback?
+A callback is a function passed as an argument to another function.
+Callback:   "I will call back later!"
+--
+When to Use a Callback?
+    1. Reading a file
+    2. Network requests
+--
+callback in callback?
+callback hell?

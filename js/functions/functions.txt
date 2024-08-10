@@ -1,62 +1,80 @@
 What is function?
-	function is a block of code designed to perform a particular task.
-	function is executes when "something" invokes it(calls it).
-syntax:
-	function <return_type> function_name(
-		<parameter1, parameter2, parameter3, ...parameter-n>) {
-		// block of code [sometime we will write 100 lines of code] 
-		// designed to perform a particular task
-		<return value>;
-	}
-Example:
-	function boolean createEmployee(firstName, lastName, phoneNo){
-		// block of code [sometime we will write 100 lines of code] 
-		// designed to perform a particular task
-	}
-	parameters are listed inside the parenthesis() in the function definition.
-	arguments are the values received by the function when it is invoked.
-	Inside the function, the arguments (parameters) behave as local variables.
-====
-What is function invocation?
-	The code inside the function will execute when "something" invokes(calls) 
-	the function.
-Example:
-	createEmployee("ravi" ,"kumar", 9912456789);
-====	
-What is return statement?
-	When function reaches "return" statement, it will returns the value to the 
-	caller function and it will stop executing the function.
-	We have to write return statement at the end of the method.
-	Syntax
-	function functionName () {
-		//block of code
-		return something;
-	}
-	Example:
-	function addition(n1, n2) {
-		let res = n1 + n2;
-		return res;
-	}
-====
+function is a block of code designed to perform a particular task.
+function will executes when something invokes-it or calls-it.
+function is defined with a function keyword, followed by a 
+function_name, followed by a parentheses (), parameters within the ().
+--
 Why Functions?
 	You can reuse code: Define the code once, and use it many times.
 	You can use the same code many times with different arguments, to produce 
 	different results.
 --
-Functions Used as Variable Values
-	syntax
-	let variableName = functionName();
-	Example
-	let variableValue = addition(10, 20);
+Syntax:
+function function_name(<param1, param2, ..param-n>) {
+	// block of code [sometime we will write 100 lines of code] 
+	// designed to perform a particular task
+	<return value>;
+}
 --
-Local Variables
+Example:
+function createEmployee(firstName, lastName, phoneNo) {
+	let isSuccess = false;
+	// block of code [sometime we will write 100 lines of code] 
+	// designed to perform a particular task
+	return isSuccess;
+}
+What is function definition?
+	function keyword, function_name, parameters within the parenthesis() is called function definition.
+--
+What is function declaration?
+	The code that is written in between the curly braces {} is called function declaration.
+--
+What is function invocation?
+	function-call/ function-execute /function-start
+	The code inside the function will execute when something invokes it (calls)
+	the function.
+Syntax:
+	function_name("arg1", "arg2", ..., arg-n);
+Example:
+	createEmployee("Ravi", "Kumar", "9087654321");
+--
+What are function arguments?
+	Arguments are the values received by the function when it is invoked.
+	Inside the function, the arguments (parameters) behave as local variables.
+--
+What is return statement?
+	When function reaches "return" statement, it will returns the value to the 
+	caller function and it will stop executing the function.
+	We have to write return statement at the end of the method.
+Syntax:
+function functionName () {
+	//block of code
+	return something;
+}
+Example
+function addition(n1, n2) {
+	let res = n1 + n2;
+	return res;
+}
+--
+What is () Operator?
+	The () operator invokes or calls the function.
+	Accessing a function without () returns the function and not the function result.
+Example:
+	function add(n1, n2) {
+		let res = n1 + n2;
+	return res;
+	}
+	let result = add(12,14);
+--
+Local Variables:
 	Variables declared within a function, become LOCAL to the function.
-	Local variables can only be accessed from within the function.
-	Since local variables are only recognized inside their functions.
+	Local variables can only be accessed within the function.
+	Since local variables are only recognized inside the function.
 	Variables with the same name can be used in different functions.
 	Local variables are created when a function starts, and deleted when the 
 	function is completed.
-	Syntax
+Syntax:
 	function functionName () {
 		let n1;
 		let n2;
@@ -64,7 +82,7 @@ Local Variables
 		//block of code
 		return res;
 	}
-	Example
+Example
 	function addition() {
 		let n1 =10;
 		let n2 =20;
@@ -73,3 +91,65 @@ Local Variables
 		return res;
 	}
 --
+Function Declaration
+	function add(n1, n2) // function definition
+		{				// function declaration
+		let res = n1 + n2;
+		return res;
+		}
+	add(); // function call
+	add(); // function call
+
+--
+Function used as variable value
+Syntax:
+	let variableName = functionName();
+Example:
+	let res = add(10, 20);
+--
+Function in a value
+	function add(n1, n2) {
+		let res = n1 + n2;
+		return res;
+	}
+	let res = add(10, 12);
+--
+Function in a expression
+	function can also be defined using an expression.
+	function expression can be stored in a variable.
+	After a function expression has been stored in a variable, 
+	the variable can be used as a function.
+	let res = function(n1, n2) {
+		return n1+n2;
+	};
+	let result = res(12, 14);
+--
+Anonymous Function
+Functions stored in variables do not need function name. 
+They are always invoked (called) using the variable name.
+Anonymous Function ends with a semicolon because it is a part of an executable statement.
+Example:
+	let res = function() {
+		console.log("Anonymous Function");
+	};
+	let result = res(12, 14);
+--
+Self-Invoking functions
+A self-invoking function is invoked automatically, without being called.
+Function expression can be made "self-invoking function".
+Add parentheses around the anonymous function.
+is followed by ().
+Example:
+(function() {
+		console.log("Self-Invoking-function");
+})();
+--
+Arrow Functions
+Arrow functions allows a short syntax for writing function expressions.
+we don't need the function keyword, the return keyword, and the curly brackets,
+	If we are returning the value in the very first line.
+we need return keyword, and the curly brackets,
+	If our code block having multi line statements, 
+	and returning the value at the end of code block.
+--
+

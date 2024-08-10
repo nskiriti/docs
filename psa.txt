@@ -1,0 +1,6 @@
+psa- Problem solving approach
+when there is a problem - try to solve yourself!
+how much time you spend? - 1 hour(docs)
+                         - Google (stack overflow)
+						 - Team lead/colleague.
+						 - Take external support(outside organisation)

@@ -10,11 +10,11 @@ function createRegionAjax() {
     xhr.send(requestBodyJson);
     xhr.onreadystatechange = function () {
         console.log("callback fn start readyState = " + xhr.readyState);
-        if (xhr.status == 200 && xhr.readyState == 4) {
+       if (xhr.status == 200 && xhr.readyState == 4) {
             console.log("if block start");
             console.log("region Id is updated to " + regionId + "region Name is updated to " + regionName);
             document.getElementById("message").innerHTML = "Entry Added succesfully";
-        }
+        } 
     };
     xhr.onload = function () {
         console.log("onload");

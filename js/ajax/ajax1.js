@@ -15,8 +15,8 @@ function sync() {
     if (xhr.status == 200) {
         console.log(xhr.response);
         console.log(typeof (xhr.response));
-        let countries = [];
-        countries = JSON.parse(xhr.response);
+        let countries = [];// ask for rest service end point(middleware), if there is no rest service ready, please share atleast JSON data.
+        countries = JSON.parse(xhr.response);// reverse is stringify
         console.log(typeof (countries));
         let rows = "";
         let header = "<tr><th>Country Name</th><th>Official Name</th></tr>";

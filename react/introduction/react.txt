@@ -1,0 +1,33 @@
+What is React?
+    React is a JavaScript library for building user interfaces
+    for web and native user interfaces.
+    React is used to build single-page applications.
+    React allows us to create reusable UI components.
+What is library?
+    set of functions
+What is SPA?
+    One HTML Page and many templates
+What is Component?
+    It is a JavaScript Function.
+What is JSX?
+    JavaScript Syntax eXtension.
+What you should already know?
+    HTML
+    CSS
+    JavaScript
+    AJAX
+    Typescript
+    npm
+    nodeJs
+Why we use ReactJS?
+    Improves the development speed of the apps.
+    Virtual DOM, which improves the performance of the app.
+--
+How many ways to create react App?
+    linking libraries with html file
+    create react app manually file by file
+    create-react-app command
+--
+Reference
+https://react.dev/
+https://nextjs.org/

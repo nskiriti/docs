@@ -1,0 +1,29 @@
+How to install react in development machine?
+Install nodeJs  18.20.4 [acts as a server]
+--
+Install npm     10.7.0  [node packaging manager]
+--
+Install typescript      [superscript of javascript]
+--
+install react and react-dom packages
+react@18.3.1
+    to build react user interfaces
+react-dom@18.3.1
+    serves as the entry point to the DOM for React
+>npm install -g react react-dom
+>npm view react version
+>npm view react-dom version
+--
+Install Webpack [A module bundler]
+Webpack 
+    It is used for module packaging, development, and production pipeline 
+    automation.   
+webpack-cli
+    provides a set of commands, Webpack compiles these into a single        
+    file(bundle).
+webpack-dev-server 
+    It is used during development, webpack to create production builds.
+>npm install -g webpack webpack-cli webpack-dev-server
+--
+Install Babel [a JavaScript compiler]
+>npm install -g babel-loader @babel/core @babel/preset-env @babel/preset-react html-webpack-plugin

@@ -1,0 +1,83 @@
+What is a Class?
+	Class is a combination of properties and methods.
+	Properties defines the state of the object.
+	Methods defines the behavior of the object.
+	Class is a logical entity, it is a blueprint of an object.
+	Object is a physical entity, it is a instance of a class.
+--
+Example
+	Class			Constructor		Object
+	Blueprint		Constructor		Home1, Home2, Home3
+	Prescription	Medicalshop		Medicines1, Medicines2, Medicines3
+	Employees		Consructor		Bharath, Sampath, Ravi, Chakri
+	Account			Consructor		RaviAccount, RajaAccount		
+--
+Syntax
+
+class ClassName{
+	// properties
+		//Properties are declared in constructor itself in javascript language
+		//Properties are not declared in constructor in java language
+	// constructor
+		//A class may only have one constructor in javascript language [0 or 1]
+		//A class can have atleast one constructors in java language [1 or *]
+	// methods
+		//A class can have multiple methods [0 or *]
+	}
+Example
+class Employees {
+
+	constructor() {
+	//properties
+	}
+	
+	//methods
+	createEmployee(){
+		//approx 100 lines of code
+	}
+	getEmployee(){
+		//approx 100 lines of code
+	}
+	updateEmployee(){
+		//approx 100 lines of code
+	}
+	deleteEmployee(){
+	// approx 100 lines of code
+	}
+}
+==
+What is constructor?
+	The constructor is a special method.
+	It has to have the exact name "constructor".
+	It is executed automatically when a new object is created.
+	It is used to initialize object properties.
+syntax:
+constructor(org1, org2, org3) {
+	this.prop1 = org1;
+	this.prop2 = org2;
+	this.prop3 = org3;
+}
+Example:
+constructor(employeeId, email, phoneNumber) {
+	this.employeeId = employeeId;
+	this.email = email;
+	this.phoneNumber = phoneNumber;
+}
+==		
+What is an Object?
+	Object is an instance of a class, It is a is a physical entity and it is a real world entity.
+	Without having class, we can't create an object.
+--
+How to create an instance?
+	By using combination of new keyword and constructor.
+	Syntax:
+	new ClassName();
+	Example:
+	new Employee();
+--
+How to create an object?
+	Employee ravi = new Employee();
+	//User ravi = new Employee();
+==
+What is difference between instance and Object?
+//TODO

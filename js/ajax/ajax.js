@@ -1,6 +1,6 @@
 function main(){
-   //sync();    
-   async();
+   sync();    
+   //async();
 };
 // This is the method to get the all the countries in a synchronous manner - This is API
 function sync(){

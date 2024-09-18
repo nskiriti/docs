@@ -1,0 +1,6 @@
+1. When we try to call the Same component with different values it creates a lot of time and increases the lines of code.
+2. To overcome this issue we have to prefer the Map method.
+3. In the map method we have one argument is there it is the Call back method. In this method we have to pass one argument then we have to call the Child component then we have to pass prop values using this argument but we have to return the Child component.
+4. We have to pass key prop in this Component for fast rendering and displaying unique elements in DOM
+
+4 hour content/30 hours

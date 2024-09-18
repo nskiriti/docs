@@ -1,0 +1,29 @@
+Prerequisites:
+HTML, CSS, JAVAScript,
+ES6 concepts like Modules, Arrow functions, classes, maps, filters, etc.
+Required Basics:
+---------------
+-> How to create React application -CRA  
+-> Application Folder structure
+-> What is JSX
+-> Components (Class & Functional)
+-> Ways to apply CSS
+-> Props
+---------------
+Intermediate Topics:
+------------------
+-> Conditional Rendering
+-> React Events
+-> React Lists
+-> Form Handling
+-> Fragments
+----------------
+Advanced Topics:
+------------------
+-> Component life cycle methods
+-> React Hooks
+-> Redux
+Required software:
+1. Node js
+2. VS Code
+3. React developer tools Chrome extension

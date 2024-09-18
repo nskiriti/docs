@@ -1,0 +1,68 @@
+React js folder Structure:
+o	Node Modules Folder: Installed packages will be there.....
+
+o	Public folder: It contains all public files and one index.html file. all files for which
+				   compilation/conversion of JS (indirect through v8) is not required.
+			Favicon - represents the favicon of tab react application.
+			
+			index.html - is loaded when npm start command is given in local server and displays all the code using index.html only. this is single page web-application.
+			
+			manifest.json - all logo files are used in manifest.json, this file is used for progressive web aplication, where web application is used as mobile application. sometimes,in mobiles,when we go online to an web application, browser prompts us to  download app. when we click that, shortcut of our app is generated in user system   ( or mobile). start url = when user opens this app, which url of the web application has to loaded?, that one. along with theme colors.
+			
+			robots.txt - in realtime , when put site is in live server, any user access our files using keywords and subsequent search results. if you dont want our files to be part of search results. add all those files to disallow option, otherwise add them to allow.
+			
+				   
+o	Src folder: It contains JS, CSS files, and components. It is the main folder to convey the
+				JSX into the browser's way of understanding. whatever code we write in react, we write in source-src only. In react, different HTML syntax is being written, so to convert that code to browser understandable format, we need libraries which does such work. so architecture is build in such a way that those libraries will act on code written in src only. we can create sub-folders if necessary. basically, React => Javascript.
+				
+			App.css- in React, we divide everything into components and assign a name to every component. here app.css means, a component by  name app, whatever css we can apply in this file. css is written in usual way like in Javascript.
+			App.js - every componet has js file specifically. here component name is app,for convention we give same name as css.
+			
+	What is component?
+			(HTML code + JS code) + CSS code
+			HTML like code is written as part of Javascript(JSX). 
+			example: navbar.css, navbar.js, footer.css, footer.js
+			
+			App.test.js- to check if functionality of our component is right/ok.
+			
+			our application starts by loading index.html, so which content has to be loaded through html or which javascript content(since html like code is included in Javascrit file in REACT). Index.css & index.js are also like components. we can write another components code in index.js also.so other component code is also displayed in browser. since index.js is main file. but important thing is code written index.js(other than other components code). index.js is root file.
+			
+			logo.svg - original react image displayed on browser is this logo.svg
+			
+			reportWebVitals.js - used to measure our applications preformance.
+			
+			setupTest.js - used for testing.
+			
+o	Gitignore: Contains the file list that we do not need to push into version control system 	like GIT, GITLAB and GITHUB.usually we push our code into these versioncontrol system. we never push node_modules(big size) version control systems. when user wants to run in a particular system, thats when user need node_modules. what is node_modules? what all libraries used to build this application. then how does user understand what all libraries are used to build this application since he is wanting to run this application in his machine. so all the names of libraries are mentioned in package.json along with version, dependencies and scripts. so whenever trying to clone application using GITHUB, he cannot access node_modules, since it is in .gitignore. so we push package.json file with all the libraries information. package.json has an object/property by name dependencies which displays which all libraries used in our application. now user has to use "npm install" command to download all the libraries mentioned in package.json. to a node_modules of users computer or system. since node_modules is very heavy in size, so no use pushing it.
+
+Live -server: even during putting our application in live server. we dont push node_modules. we do it using webpacks like libraries, these webpacks will convert all libraries to one javascript file and help to deploy our application in live server. something similar to package.json.
+
+What are dependencies in package.json?
+package = libraries =version ; @testing libraries are files used for testing
+react -- used for running react, writing our application using react and for other configuration.
+if we carefully look at, in package.json currently there are only 7 files but in node_modules there are n number of files. so package.json configures only mainlibraries. but for example react of 7 other libraries is dependant on other libraries which are not mentioned in package.json, when "npm install" command is pressed all other depending libraries are loaded into node_modules of user. so package.json  = node_modules(which includes indirect dependencies)
+
+What are scripts in package.json?
+scripts has key: value pairs; key = command("start", "build", "eject", "test")
+values = path to a file name. eg:"react-scripts-start"
+so, when "npm start" command is given. it goes to package.json file and search for start key and take path and execute the javascript file. we can also create a new command here and save for execution example: "test2": "./index.js"
+
+What is difference between package.json & package-lock.json?
+package.json gives minimum version details  of libraries used in our applciation, so other users who want to install our applications have to download these libraries with minimum version. but when user types"npm install" it downloades the minimum version mentioned in package.json and also downloades the latest version of that library. but using latest libraries might have bugs, and moreover our application might not be suitable for latest version, so we want all our application users to download only the displayed version in our package.json and not the latest version, then we need to mention in package-lock.json. so what all libraries mentioned in package-lock.json only those versions will be downloaded.
+^ = symbol is ignored in package-lock.json and download exact version mentioned here.
+^ = major, minor and patches => "react":"^18.2.0" ^==> minor version minimum, here ==>2.
+~ = minimum patch version indicator, here ==> 0.
+
+^ Caret => “Compatible with version”, will update to all future minor/patch versions, without incrementing the major version. 
+^2.3.4 will use releases from 2.3.4 to <3.0.0
+
+~ Tilde => “Approximately equivalent to version”, will update you to all future patch versions, without incrementing the minor version. ~1.2.3 will use releases from 1.2.3 to <1.3.0.
+
+
+
+o	The Package.json file contains the main package list, which is installed in the node_modules folder. It contains an application detail view.
+
+o	The Pcakage.lock.json file contains all the package information that is installed in the background. It contains package-related detail views.
+
+
+refer vamsi bhavani channel 45 min react intro.

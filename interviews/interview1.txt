@@ -1,0 +1,9 @@
+Watched on Date: 12/09/2024
+
+Youtube link : https://www.youtube.com/watch?v=ssRvlc57CCk&t=102s
+
+Topics Covered: 
+
+Questions:
+
+1. What is Hoisting?

@@ -1,0 +1,1 @@
+Whatever we write between two tags in the child component while calling it, either function or class Component, we have to fetch those children using props. children property in the Child Component. It is called Child Props.

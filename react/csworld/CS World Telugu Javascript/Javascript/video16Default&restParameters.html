@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video 16 Default and RestParameters</title>
+</head>
+<body>
+    <script>
+        //Default parameter; both can be set to any values.
+        function product(n1,n2=3){
+                var result= n1*n2;
+                return result;
+        }
+        console.log(product(8));
+        //Default parameter
+        console.log(product(5));
+        //Rest parameter;
+
+        function product(n1, n2, ...num){
+            var result= n1*n2;
+            console.log(arguments[4]);
+            for(ele of num){
+                result=result*ele;
+            }
+            return result;
+        }
+        console.log(product(8,2,7,8,6,5,4));
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+update the the values and render the html for that we are  the usestate() it will two actions update rhe variable and render the values where we called the variables on the jsx syntax , normal function only update the value ,it dont have the rendering power (re render means keep the updated value what variable definition memory location consist )
+----------------------
+
+1. For functional components we have to use the useState function. In this function, we have to pass the initial value. Then we have to assign this function to one array. Here we have to use Array destructing concept. In that array, we have to pass 2 values. One is a dynamic variable, and the other is the function name. Then this function is called in events. Depending upon the variable we have to update it.
+2. Fon class components we have to use a state object then we have to give the key-value pair. Then we have to fetch this value using this keyword. Then we have to use the setState method for updating the particular state object value. Here we have to use the arrow function or anonymous function in events. 
+
+Nice explanation. Thank you.
+------------------------------------------

@@ -1,0 +1,8 @@
+1. Props are basically used at the run time.
+2. Dynamic values we can send to the Child component in the parent component like normal attribute type in the component tag.
+3. Once these are defined we can get those values in the component using parameters based on the functional component. So directly we can display those values in components using props. parameter name.
+4. In class components directly we can get through the constructor or use this. props. parameter name, but constructors are not mandatory.
+5. Here props are not mandatory to name in the component we can give them as per our wish.
+6.  As per our wish we can call the component in the parent component.
+7. Props are immutable we can't override the existing values in the component.
+Note: When we use the constructor keyword in the class component compulsory we have to include the super() keyword inside the constructor function. This is as per the ES6 rule,  but in this video, this point is missing. I tried but I got the error. That's why I mentioned this point. This will help other developers. Nice explanation.

@@ -1,0 +1,4 @@
+3 ways we can apply CSS.
+1. Create a global CSS file and include it in the index.html file using the link tag in the head section.
+2. Create a javascript object and declare the style attribute in a tag and assigned it to this style attribute using curly braces.
+3. Using external CSS and importing in the component at the top line.

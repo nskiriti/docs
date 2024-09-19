@@ -1,0 +1,6 @@
+Table.js = RegionsView.js
+RegionsService.js = api.js
+
+deleted rows:
+5 Singapore
+9 Japan

@@ -3,9 +3,14 @@ NOTES: video 3-Create React App ! Date: 13/sept/2024 ! CS world Telugu!
 Q. Why dont we use ReactJS Using CDN Links?
 
 Since ReactJS is library => we should be able to use its CDN links in <Head>
-tag, and build an application. but in realtime, we need to build a enterprise level application and it requires multiple external libraries, managing those will be very complex and deploying such applications(using CDN links is just like using Bootstrap links and Jquery links.)in live will create issues.
+tag, and build an application. but in realtime, we need to build a enterprise 
+level application and it requires multiple external libraries, managing those 
+will be very complex and deploying such applications(using CDN links is just 
+like using Bootstrap links and Jquery links.)in live will create issues.
 
-Therefore, we need to build application in a particular structured way, and the code should be minified and compatability issues to be resolved before going live. This can be done using a command provided by NPM(Node Package Manager).
+Therefore, we need to build application in a particular structured way, and the 
+code should be minified and compatability issues to be resolved before going 
+live. This can be done using a command provided by NPM(Node Package Manager).
 
 Q. What are Prerequisites to create React app?
 NodeJs software

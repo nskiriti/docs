@@ -1,6 +1,7 @@
 console.log("This is employee.js start");
 class Employee {
     // properties
+    static noOfEmployees = 0;
     // Properties are declared in constructor itself
     // A class may only have one constructor
     // constructor with no arguments

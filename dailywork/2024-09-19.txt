@@ -1,0 +1,16 @@
+1. create a CRUD on regions. using fetch in HRMS-UI-Pure
+2. 1 Daily UI interview
+3. show filtered data on regions table by regionID, ascending or decending order.
+4. complete video 59.
+
+-----------
+1. create a CRUD on regions. using fetch in HRMS-UI-Pure
+
+Key Points:
+1. tried to use link tag instead of script tag in hrmsuiPure head tag.
+2. forgot document in document.getElementById("") in .js file;
+3. forgot to put "" while calling onload function in body tag.
+4.forgot to use new keyword at XMLHttprequest object
+5.When sending an asynchronous request (which is the default behavior with true as the third argument in xhr.open), the callback should be handled inside the onreadystatechange event listener or the onload event.
+6.forgot the process to iterate array/object!! map or for of? which one to use.
+-------------------------

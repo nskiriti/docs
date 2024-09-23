@@ -15,7 +15,8 @@ Questions:
 7. How do we handle errors in javascript?
 8. What is a Promise?
 9. Write a promise function?
-10. What is Prototype?
-11. What is a closure?
-12. Progressive Web APP?
+10. What is Prototype?//
+11. What is a closure?// not covered
+12. Progressive Web application? responsive web application? adaptive web application?
 13. What is service worker in PWA?
+14.What is difference between innerHTML and appendchild?

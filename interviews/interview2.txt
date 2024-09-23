@@ -1,0 +1,44 @@
+Watched on Date: 22/09/2024
+
+Youtube link : https://www.youtube.com/watch?v=CNoBpeo2rn0
+
+Topics Covered: 
+
+Questions:
+
+1.What is object data type in javascript?
+2.What is Hoisting in javascript?
+3.What ia Arrow Function?
+4.What is function closure?
+5.If I want to declare any fn as a parameter, then what type of function do we create?
+6.Difference between Let, Var and const?
+7. Is javascript object oriented language?
+8. What is function overriding?
+9. is JS client side or server side?
+10.What is CGI programming?
+11. Does JS support Interface?
+12. SYntax of object in JS?
+13.WHat is Promise?
+14.What is setInterval method in JS?
+15. What is JS data structure concept?
+16. What is difference between map nad set.
+17.What is spread operator?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

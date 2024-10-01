@@ -1,0 +1,70 @@
+Local Area --> Commit --> Staging Area --> Push --> Remote Area
+Remote Area --> Pull --> Staging Area --> Fetch --> Local Area
+--
+What is Stach?
+	it stores files hidden place when we didn't commit our changes.
+	There are two options in stach
+	1. Restore
+	2. Discard
+--
+What is Restore?
+	It files the files from hidden place to changes list.
+	From there we can commit our changes.
+--
+What is Discard?
+	If we select discard in Stach then the changes did in files will be deleted 
+	its turns into the previous file.
+--
+What is Merge?
+	In a repository there are working more than one person.
+	Then the changes did by them we can merge.
+	Merge is nothing but me can combine the changes from one branch to another.
+	At the time of merging some times we get some conflicts.
+--
+What is Conflict?
+	Conflict gets when the both programmers commit changes in same line of the 
+	file.
+	Then github gets confuse which changes need to done.
+	It is also known as dead law situation.
+--
+How to resolve conflict?
+	Need to discuss with the another programmer and then select the best option.
+	There are few possibilities:
+		go with both changes
+		go with single change(required & best option)
+		otherwise implement new solution.
+--
+What is Clone?
+	Copying the files to the local area.
+--
+What is Centralize Source Code hosting?
+//To ask sir
+--
+What is GitLab?
+	GitLab is also a DevOps tool like GitHub. It is a Git repository hosting service. 
+	It provides issue tracking, wikis, and CI/CD Pipeline.
+--
+What is Bitbucket?
+	Bitbucket is also a web-based version control system owned by Atlassian.
+--
+What is GitHub Repository?
+	The repository store metadata for files and directories.
+	It is the collection of the files as well as the history of changes made of those files.
+	A single project can have more than one repository.
+--
+How can we commit changes?
+	To commit the changes, type commit message and the description.
+	After that, click on the commit option.
+	After committing the changes will be at staging area.
+--
+How to create a new branch?
+	To create a new branch, drag the branch option under the repository.
+	A search option is available under the branch. It will search for the requested branch 
+	if it is not in the repository, then it will create a new branch by the given name.
+--
+What is GitHub fork?
+	It is a copy of a repository.
+--
+What is GitHub pages site?
+What is GitHub Gists?
+What is GitHub Markdown?

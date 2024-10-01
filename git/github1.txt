@@ -1,5 +1,5 @@
 Local Area --> Commit --> Staging Area --> Push --> Remote Area
-Remote Area --> Pull --> Staging Area --> Fetch --> Local Area
+Remote Area --> Pull --> Staging Area --> Fetch --> Local Area/*
 --
 What is Stach?
 	it stores files hidden place when we didn't commit our changes.

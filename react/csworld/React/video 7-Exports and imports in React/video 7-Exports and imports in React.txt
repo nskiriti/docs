@@ -1,0 +1,135 @@
+The Overall topic is.
+2 types of export Components are there.
+1. Named export. If we have to import a named export component we have to use {} in the js file.
+2. Default export. If it is there easily we can import it. Curly braces are not required. We can use any name.
+3. Whenever we import a particular component compulsory the first letter should be in upper case.
+4. In One component only one time we can do export default.A module cannot have multiple default exports.
+5. We have to use the Tag format component in the App.js file.
+6. Whenever we import any component we have to give the exact path otherwise directly it will search in the node_modules folder.
+
+
+--------------
+1) 00:00:00 --explain why we use import and export concept.
+	Exports and Imports are not React specific. React is JS library, so exports and imports fall under JS. Introduced from ES6 version. We basically export a piece of code or component from one js file to another by importing. 
+	
+2) 00:01:00 -- why we use import and export concept in reactjs.
+	increases reusability.
+	
+3) 00:01:33--Node_modules contains javascript libraries and used whenever we import them on our JS file. 
+
+import React from 'react'; [after FROM we need to give path, instead if we give file name, then search will be done in node modules, where it is exported in first place]
+
+4) 00:02:03 -- we can use same or different different naming (named export and default export)
+	default export: if a function or class or object or component or array or string is default exported and then we can import by using any name.
+	Named Export: we need to use same name while importing 
+
+5) 00:02:50 -- create a object in seperate file.
+6) 00:03:30 -- explain about export.
+
+APP.js(named export)
+-------------------
+
+export let person = {name: "raju",
+			  Place: "hyd",
+			  age: 27}
+			  
+export let x = 10;			  
+			 
+INDEX.js
+--------
+import {person, x} from './APP.js'
+
+----------------------------------------------------------------------
+
+
+APP.js(default export)
+----------------------
+export default let person = {name: "raju",
+			  Place: "hyd",
+			  age: 27}
+			  
+		 
+INDEX.js
+--------
+import Nnnn from './APP.js' ==> right
+import person from './APP.js' ==> right
+
+ explaination about console.log(gh) --output--error; console.log(person without{}---error) works only imported with {person}, since person is named exported initially. console.log(x) also works since x is comma seperated in import statement within {};
+
+Alias Names:
+------------
+APP.js(named export)
+-------------------
+
+export let person = {name: "raju",
+			  Place: "hyd",
+			  age: 27}
+			  
+export let x = 10;			  
+			 
+INDEX.js
+--------
+import {person as p, x} from './APP.js'
+console.log(p)=== console.log(person)
+---------------------------------------------------------------------- 
+A module cannot have multiple default exports.
+for named exports curly braces and alias names; for default exports alias names or its name will work.
+
+import x,{person} from './APP.js ==> 1 default and 1 named export.
+alias name can be used instead of x, and in this imported file, exported default x can be pointed out as y.
+
+Q. WHy do we need Export and Import in React?
+
+import React from 'react.js'; => React is an object default exported in 'react.js' present in node_modules.
+import ReactDom from 'react-dom/client';=> ReactDom is an object default exported in 'react-dom/client.js' present in node_modules.
+
+import React from 'react.js' === import x from 'react.js';
+import ReactDom from 'react-dom/client' === import y from 'react-dom/client'
+
+Whenever we import a particular component compulsory the first letter should be in upper case.
+
+general practice is that,in Index.js we root.render(<APP/>) and all other components are called in App.js, in App.js we create a function by name APP and in its return statement we call multiple components in single <div> or use fragments.
+
+-----------------------------------------------------------------------------------
+
+
+
+
+note:we have two types of exports: named export and default export 
+(1) default export name for single file we use only single time.
+(2) named export concept we use for multible times in single file so due to that only we have two types of exports are present.
+
+------------------------
+code snippet
+import React , { Component } from 'react'
+import nnnn,{detail as p} from "./object"
+import "./index.scss"
+
+  class Componentclass2 extends Component {
+  render() {
+    return (
+      <div>
+       {console.log(p,nnnn)}
+      </div>
+    )
+  }
+}
+export default Componentclass2;
+// close tag for react on right side  
+// 1)<label/>
+// close tag for html react element on left side 
+// 2)</label>
+export let Detail ={
+  name:"lokesh",
+  age:"25",
+  village:"pathagunta"
+}
+
+let Detail1 ={
+  name:"murali",
+  age:"25",
+  village:"pathagunta"
+}
+
+export default detail1;
+--------------------------------											

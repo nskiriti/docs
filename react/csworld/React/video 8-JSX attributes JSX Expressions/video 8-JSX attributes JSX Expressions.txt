@@ -1,0 +1,85 @@
+NOTES: video 8-JSX attributes |JSX Expressions | Jsx in telugu Date: 17/oct/2024 ! CS world Telugu!
+
+JSX Attributes & Expressions:
+-----------------------------
+JSX Attributes 
+--------------
+
+When we take a tag, <h1></h1> in INDEX.html and give attributes like id, class, these are html attributes. similarly when we take functional or class component and their respective return statement containing JSX tags and their corresponding attributes are called JSX attributes.
+
+INDEX.html
+----------
+<h1 id = "prop1" class = "prop2"> This is heading</h1>
+
+APP.js
+------
+export function Header(){
+		return ( <h1 id = "prop1" className = "prop2">This is heading</h1>
+		)
+	}
+Importing CSS file. in APP.js
+----------------------------
+import './index.css' ==> path should be always in string. all matching styles in index.css will reflect in JSX of APP.js
+
+Note: matching reserved words in javascript with HTML are differently used in JSX.
+eg1: Class in HTML <==> Class(object) in Javascript; so in JSX, HTML class is "className" 
+eg2: for(forms) in HTML <==> for(loop) in Javascript; so in JSX, HTML for is "htmlFor" 
+
+APP.js
+------
+export function Header(){
+		return ( 	<div>
+						<input type ="checkbox" id = "sub"/>
+						<label htmlFor = "sub">Subscribe<label/>
+					</div>
+		)
+	}
+
+Note: fragments are div tag in return is must.
+
+JSX Expressions:
+----------------
+We need to compute 4*6 in JSX, or w e need to evaluate a expression in JSX, we need to write javascript in jsx, How do we do?
+APP.js
+------
+export function Header(){
+		return ( 	<div>
+						{4*6};
+						{alert("Hello")};
+						{sum(9,4)};
+						<input type ="checkbox" id = "sub"/>
+						<label htmlFor = "sub">Subscribe<label/>
+					</div>
+		)
+	}
+
+Defining sum function.
+function sum (n1, n2){
+	return n1 + n2;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

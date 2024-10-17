@@ -1,3 +1,5 @@
+NOTES: video 7-Exports and imports in React | Export and import components in react | react js in telugu Date: 16/oct/2024 ! CS world Telugu!
+
 The Overall topic is.
 2 types of export Components are there.
 1. Named export. If we have to import a named export component we have to use {} in the js file.

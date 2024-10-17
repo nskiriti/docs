@@ -5,4 +5,4 @@
 5. Here props are not mandatory to name in the component we can give them as per our wish.
 6.  As per our wish we can call the component in the parent component.
 7. Props are immutable we can't override the existing values in the component.
-Note: When we use the constructor keyword in the class component compulsory we have to include the super() keyword inside the constructor function. This is as per the ES6 rule,  but in this video, this point is missing. I tried but I got the error. That's why I mentioned this point. This will help other developers. Nice explanation.
+Note: When we use the constructor keyword in the class component compulsory we have to include the super() keyword inside the constructor function. This is as per the ES6 rule,  but in this video, this point is missing. I tried but I got the error. That's why I mentioned this point. This will help other developers. 

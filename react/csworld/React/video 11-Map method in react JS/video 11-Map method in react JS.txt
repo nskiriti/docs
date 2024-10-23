@@ -1,6 +1,158 @@
+NOTES: video 11-Map method in react JS
+Date: 18/oct/2024 
+
 1. When we try to call the Same component with different values it creates a lot of time and increases the lines of code.
 2. To overcome this issue we have to prefer the Map method.
 3. In the map method we have one argument is there it is the Call back method. In this method we have to pass one argument then we have to call the Child component then we have to pass prop values using this argument but we have to return the Child component.
 4. We have to pass key prop in this Component for fast rendering and displaying unique elements in DOM
 
-4 hour content/30 hours
+----------------------------4 hour content/30 hours completed------------------------------------
+
+Q.How to use Map method with PROPS in React?
+
+Without Map
+-----------
+APP.js - sending multiple user details
+------
+import User from './user.js'
+
+function APP(){
+	return ( <>
+				<user  name = 'Moon' age = 25/>
+				<user  name = 'John' age = 26/>
+				<user  name = 'foo' age = 27/>
+				|
+				|
+				|
+				| 100 users information required to send to child component
+				</>)
+	}
+	
+User.js
+-------
+
+function User(props){				
+		console.log(props); 
+	return ( <>									  		
+				<h1>user name: {props.name}</h1>  
+				<h1>age: {props.age}</h1>
+			 </>		
+				)
+	}
+export default User
+
+----------------------------------------------------------------------------------------------
+With Map
+--------
+Q. What does MAP function do?
+	Map function calls a call back function to each element of the array.
+	
+	const numbers = [1, 2, 3, 4, 5];
+	const doubled = numbers.map(number => number * 2);
+
+	console.log(doubled); // [2, 4, 6, 8, 10]
+--------------------------------------------------------	
+APP.js - sending multiple user details using map fuction
+------
+import User from './user.js'
+
+function APP(){
+	return (<>
+			   {	           ==> to write JS in jsx
+				[
+				<user  />		==> calling user component 2 times
+				<user  />
+				]
+				 }
+				)
+	}
+User.js
+-------
+function User(props){				
+		console.log(props);
+
+	return ( <>									  		
+				<h1>user name: {props.name}</h1>  
+				<h1>age: {props.age}</h1>
+			 </>		
+				)
+	}
+export default User	
+
+Output: user name:
+        age:
+		user name:
+        age:
+since we did not pass any props to User, but called 2 times using {[]}		
+---------------------------------------------------------------------------------------------
+APP.js - sending multiple user details using map fuction
+------
+import User from './user.js'
+
+function APP(){
+	let users = [22,23,24] ==> Array
+	let users = [
+					{
+					name: 'john',
+					age: 25,
+					id: 22
+					  },
+					{
+					name: 'moon',
+					age: 26,
+					id: 23
+					  },
+					{
+					name: 'soon',
+					age: 27,
+					id: 24
+					  }  
+					   ]
+	return (<>
+			   {	           
+				users.map(
+				 (u)=>{
+				   return <User key ={u.id} id = {u.id} name = {u.name} age = {u.age} /> 
+				                                               ==>[return stmt is must]
+						}
+							)
+				 }
+				</>)
+	}
+User.js
+-------
+function User(props){				
+		console.log(props);
+
+	return ( <>									  		
+				<h1>user name: {props.name}</h1>  
+				<h1>age: {props.age}</h1>
+				<h1>user ID: {props.id}</h1>   ===> this.p.id for class
+			 </>		
+				)
+	}
+export default User	
+
+2nd instance Output: user name: john
+        age:25
+		user ID:22
+		user name: moon
+        age:26
+		user ID:23
+		user name: soon
+        age:27
+		user ID:24
+since we did not pass any props to User, but called 2 times using {[]}
+
+1st instance Output: user name: 
+        age:
+		user ID:22
+		user name: 
+        age:
+		user ID:23
+		user name: 
+        age:
+		user ID:24
+
+key ={u.id} is unique value based on which react dom renders at a very high speed.
+index is not preffered, usually a unique value of the object in array of objects is preferred.

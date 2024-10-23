@@ -1,4 +1,5 @@
-NOTES: video 6-Components in React | Functional Components | Class Components Date: 16/oct/2024 ! CS world Telugu!
+NOTES: video 6-Functional Components & Class in React
+Date: 16/oct/2024 ! CS world Telugu!
 
 In this Video lets deep dive into components of React JS. Basically, ReactJS is a component based library. so we develop multiple components and all these form to be one single application.
 
@@ -20,8 +21,8 @@ Types of components:
 what is the crux of React? 
 writing HTML in Javascript is the main part of react. so, using function and writing HTML code is functional component. so, using Class and writing HTML code is Class component.
 
-index.js = root JS file.
-index.html = root HTML file.
+2.index.js = root JS file.
+1.index.html = root HTML file.
 
 Q.How to write a functional component in JSX?
 
@@ -57,7 +58,7 @@ Q.How to use Javascript in JSX syntax?
  
 Q. What is Class Components?
 
-Class components in react uses render() function from react library.
+Class components in react uses render() function from react library. and extends a Component class to current custom class from React library(React.Component)
 
 Syntax:
 

@@ -1,0 +1,49 @@
+NOTES: video 12:Different ways to create functional components in react 
+Date: 19/oct/2024 
+
+Different ways to CREATE functional components in react
+-------------------------------------------------------
+Q. How do we create a functional component in React?
+
+	We create a function and in its return statement, we write jsx notation. Creating functional component is same as creating a function in javascript.
+	
+	1. Named function:
+			function functionName(){
+					return(	    ==> if ( goes to next line, ; will be inserted and code will not be executed
+							<h1>This is heading</h1>	
+								)
+					}
+	2. Arrow function:
+			const functionName = (()=>{
+					return(
+							<h1>This is heading</h1>	
+								)
+					})
+	Note:arrow function memory allocation is similar to let x =10;
+			let functionName = ()=>
+								<div>
+									<h1>This is heading</h1>	
+								</div>
+	Note: entire <div> is an expression, we dont need return statement as well.							
+		
+	3. Anonymous function:
+			const functionName = function(){
+					return(
+							<h1>This is heading</h1>	
+								)
+					}
+	4. IIFE: 
+			(function functionName(){
+					return(
+							<h1>This is heading</h1>	
+								)
+					})();
+
+Different ways to CALL functional components in react
+-------------------------------------------------------
+
+1. App()
+2. <APP/>
+3. <App><App/>
+
+There are container tags(<h1>Heading</h1>) and non container(auto complete tags ex: <img><br><hr>) tags. we cannot give child component if non container method of calling is done. so prefer 3rd way. 

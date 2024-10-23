@@ -1,1 +1,30 @@
+NOTES: video 13:Child Props in react JS 
+Date: 19/oct/2024
+
 Whatever we write between two tags in the child component while calling it, either function or class Component, we have to fetch those children using props. children property in the Child Component. It is called Child Props.
+
+APP.js
+------
+import User from './user.js'
+
+function APP(){
+	return (
+				<User name = 'john'> Whatever written here can be accessed in childs component's argument(props) as object under children property <User/>	
+				)
+	}
+User.js
+-------
+function User(props){				
+		console.dir(props.children);    =>Whatever written here....children property
+	return ( <>									  		
+				<h1>user name: {props.name}</h1>  
+				<h1 style = {{backgroundcolor: 'red'}}>{props.children}</h1>
+			 </>		
+				)
+	}
+export default User	
+
+console.log(props) = {
+						name:'john',
+					children: 'Whatever written here....children property'	
+						}

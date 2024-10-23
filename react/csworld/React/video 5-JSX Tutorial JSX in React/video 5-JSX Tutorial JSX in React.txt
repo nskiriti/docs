@@ -2,15 +2,15 @@ NOTES: video 5-JSX in Reactjs Date: 16/oct/2024 ! CS world Telugu!
 
 The basic functionality of react is to write HTML in Javascript. How do we write? using react methods. but there is a difficulty in implementing those methods by developer(3rd example below), so they came up with JS-extension, also popularly known as Javascript Xml. so, jsx is a syntax extension to javascript.
 
-using only HTML
----------------
+ex:1 using only HTML
+--------------------
   <ul>
 	<li>Home</li>
 	<li>About</li>
   </ul>
   
-using only Javascript
----------------
+ex:2 using only Javascript
+--------------------------
 let ul = document.createElement("ul");
 let li1 = document.createElement('li1');
 li1.innerText = "Home";
@@ -20,16 +20,16 @@ ul.appendChild('li1');
 ul.appendChild('li2');
 document.body.appendChild('ul');
 
-using only React
-----------------
+ex:3 using only React
+---------------------
 let li1 = React.createElement(li,{},Home);
 let li2 = React.createElement(li,{},About);
 let ul = React.createElement(ul,{},[li1, li2]);
 let root = ReactDom.createRoot(document.getElementById("root"));
 root.render(ul);
 
-using JSX
----------
+ex:4 using JSX
+--------------
 let menu = (
 			<ul>
 				<li>Home</li>
@@ -47,7 +47,7 @@ try using JSX to React code compilations in browser ready tools. => Babel
 ex.4 to ex3
 so, basically JSX-->Babel==>React way of creating elements-->other react libraries==> browser understandable like document.createElementBy('id');
 
-How to include javascript in JSX?
+How to include javascript in JSX? or Define JSX syntax?
  
 let name = "csworld";
 let menu = (

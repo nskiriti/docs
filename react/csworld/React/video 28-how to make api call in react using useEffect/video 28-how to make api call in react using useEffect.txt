@@ -1,0 +1,4 @@
+NOTES: video 28:how to make api call in react using useEffect
+Date: 23/oct/2024
+
+

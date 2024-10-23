@@ -1,0 +1,5 @@
+NOTES: video 20:counter app in react JS 
+Date: 23/oct/2024
+
+#todo
+

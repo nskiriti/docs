@@ -1,0 +1,14 @@
+#TODO - class components for later.
+
+Overall topic in the Class component.
+1. When we want to display information in a dynamic way prefer to use the state management concept in React.
+2. For this class component which we have to display information in a dynamic way we have to use a state object, using the "this" keyword we can fetch the object information in the Component.
+3. At the time of event handling we have to use this.setState method.
+4. In This setState method two arguments are there. One is state information, and the other is the callback function.
+5. setState is the asynchronous method. If we check whether the state information is updated or not we have to call the callback function in the second argument in the setState method.
+6. If we want to create a separate function for event handling for the maintaining of current object information in the setState method we have to prefer the constructor method.
+7. In the Constructor first, we have to call the super method and then assign the same set state method once using the bind method.
+8. In the Constructor also we can assign the state object.
+
+
+

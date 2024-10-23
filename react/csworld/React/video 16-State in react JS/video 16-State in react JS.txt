@@ -1,8 +1,106 @@
-update the the values and render the html for that we are  the usestate() it will two actions update rhe variable and render the values where we called the variables on the jsx syntax , normal function only update the value ,it dont have the rendering power (re render means keep the updated value what variable definition memory location consist )
-----------------------
+NOTES: video 16:State & Use state in React js   
+Date: 21/oct/2024
+										USESTATE
+										--------
+
+update the the values and render the html for that we are  the usestate() it will two actions update the variable and render the values where we called the variables on the jsx syntax , normal function only update the value ,it dont have the rendering power (re render means keep the updated value what variable definition memory location consist )
+----------------------------------------------------------------------------------------
 
 1. For functional components we have to use the useState function. In this function, we have to pass the initial value. Then we have to assign this function to one array. Here we have to use Array destructing concept. In that array, we have to pass 2 values. One is a dynamic variable, and the other is the function name. Then this function is called in events. Depending upon the variable we have to update it.
 2. Fon class components we have to use a state object then we have to give the key-value pair. Then we have to fetch this value using this keyword. Then we have to use the setState method for updating the particular state object value. Here we have to use the arrow function or anonymous function in events. 
 
-Nice explanation. Thank you.
-------------------------------------------
+
+----------------------------------useState-FunctionalComponent-----------------------------------
+
+What is State & useState?
+
+Let see an example:1
+------------------
+
+import React from 'react'
+
+function App(){
+		let counter = 0;
+		return (
+				 <>
+					<h1>counter value :{counter}</h1>
+					<button onClick = {updateCounter}>Change</button>
+				 </>	
+					)
+					
+		function updateCounter(){
+						++counter;
+						console.log(counter);
+						}			
+		}
+		
+console-window
+--------------
+1
+2
+3
+4
+5
+6
+7
+8
+but on browser, there is no change. WHY? since in index.js, we are calling <App/> only once, so <h1>counter value :{counter}</h1> is not updated. so we need a mechanism, to re-render <App/> or to call App function as number of times as we clicked. so DOM is not updated.
+
+Therefore, React has come up with state and useState concepts.
+state    --> class components
+useState --> functional components
+
+If we want to dynamically update some information and re-render the component in DOM, then we take help of state and useState methods. these are also called as hooks.
+useState does 2 jobs, 1. update counter value and re-render the function.
+
+So, coming back to example 1: in order to enable useState method from react, we need to named import it using {}.
+	step:1		import React,{useState} from 'react'
+	step:2 		calling useState method inside the function,and also pass the initial value of
+            	the data for which you want to dynamically change. here, initial counter value is 0. 
+	step:3		so, useState(0) is a function/method; usually any function return some content.
+				similarly useState return an array with two values.
+				[value1 value2] = [value setMethod] = [variable ]
+				Value1 = initial value passed into useState method,
+				Value2 = a function which is capable of updating Value1.
+	step: 4		using array destructuring method we assign useState(0) to array with 
+                two values. [counter updateCounter] = useState(0) 
+------------------
+
+import React,{useState} from 'react'
+
+function App(){
+		[counter, updateCounter] = useState(0)
+		return (
+				 <>
+					<h1>counter value :{counter}</h1>
+					<button onClick = {()=>{
+											updateCounter(++counter)}}>Change</button>
+				 </>	
+					)
+					
+		}				
+----------------------------------State-Class component-------------------------------------
+#TODO -  class methods for later. lets stick to functional component methods.
+
+
+Class component has an object by name state.
+
+
+
+import React,{State} from 'react'
+
+class App extends React.Component(){
+		render(){
+		state = {
+						}
+		return (
+				 <>
+					<h1>counter value :{this.counter}</h1>
+					<button onClick = {()=>{
+											updateCounter(++counter)}}>Change</button>
+				 </>	
+					)
+		
+						
+						}					
+		}				

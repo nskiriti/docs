@@ -1,0 +1,4 @@
+NOTES: video 26:conditional rendering in react JS
+Date: 23/oct/2024
+
+

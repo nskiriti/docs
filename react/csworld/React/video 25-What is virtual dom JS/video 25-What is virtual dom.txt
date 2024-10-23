@@ -1,0 +1,5 @@
+NOTES: video 25: What is virtual dom
+Date: 23/oct/2024
+
+
+

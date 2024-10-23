@@ -1,0 +1,26 @@
+NOTES: video 14:Fragments in react JS  
+Date: 19/oct/2024
+
+In ReactJS, we render the JSX from the component with the help of a return statement, whether written inside the functional component or inside the render function of class components. Now the point is that in JavaScript, the return statement can only return one entity. So, when we have to return multiple elements from return statements, we usually create the extra node. This extra node has some disadvantages; to avoid them, we use the React Fragment.
+
+User.js
+-------
+function User(props){				
+		console.dir(props.children);    
+		return ( 
+			 <React.Fragment>									  		
+				<h1>user name: {props.name}</h1>  
+				<h1 style = {{backgroundcolor: 'red'}}>{props.children}</h1>
+			 </React.Fragment>		
+				)
+	}
+export default User
+
+<>       <React.Fragment>             <div>
+</>	     </React.Fragment>            </div>
+
+React package in node modules has a tag by name Fragment, so import React from './react'
+Props are always written in open tag only.
+styling Issues arises with Div tag usage, especially when arranging css of child elements
+ex: flex, grid property.
+JSX notation accepts only one parent tag. error# module buid error

@@ -1,3 +1,7 @@
+NOTES: video 15:Event handling in react JS  
+Date: 21/oct/2024
+
+
 Overall synopsis:
 •	An event is generally an action. Action may be taken by the user or system. The user or the system will perform some action, and after that, we have to perform some action. This is called event handling.
 •	We have two types of events: one is a system-generated event, and the other is a user-generated event.
@@ -11,4 +15,143 @@ Overall synopsis:
 •	It is not immediately executed. It is executed by the system, but normal functions are immediately executed.
 •	If the input is not required, then we can write the direct function name in the event place.
 •	We can send event information to the event location.
--------------------
+-----------------------------------------------------------------------------------------------
+
+What is an Event?
+	An action by user or system leading to another action by developer = Event handling.
+	ex: amazon website search bar-> All ctaegories(clciked by user)--> dropdown with all different categories(event generated) like 
+							  :Alexa skills
+							   Amazon service
+							   Amazon fashion
+							   Amazon fresh	
+							   
+	Event = onClick; KeyUp						   
+	
+Event handling in HTML vs React
+	Ex in html: <button onclick="displayMessage()"> Click</button>
+	Ex in React (JSX): <button onClick={displayMessage}> Click</button> 
+	
+Ex: in html: <button onclick="displayMessage()"> Click</button>, we can write console.log("hi"), or alert("warning") or call any function, ex: displayMessage().
+
+But In React, we are writing HTML code in javascript file using JSX syntax.
+Ex: in React (JSX): <button onClick={displayMessage}> Click</button>
+onClick ==> C must be capital = event name must be capitalised. KeyUp,MouseOver.
+In JSX, to execute JS we use {displayMessage} without ();
+-------------------------------------------------------------------------------------------
+
+APP.js with ()syntax
+--------------------
+
+function APP(){
+	return (
+			<button onClick = {alert("hello")}>CLICK</button>		
+				)
+	}
+here, alert function will be called before clicking the button, since () is used.
+
+			<button onClick = {alert}>CLICK</button> ==> alert appears but we cannot pass any info to it or no input can be given to it.
+
+--------------------------------------------------------------------------------------------
+APP.js without ()syntax
+-----------------------
+
+function APP(){
+
+	function displayMessage(){
+					alert("button clicked");
+			}
+	return (
+			<button onClick = {displayMessage}> CLICK </button>		
+				)
+	}
+
+definition of displayMessage can be written inside this APP() or outside APP function, it will be accessible as long as its in same file. Import and export statements can be helpful if its in other files.
+
+Basically, event handling can be done by not calling a function but just writing function name in{} and its definition is to be defined elsewhere.
+
+--------------------------------------------------------------------------------------------
+APP.js without () syntax but using Arrow or anonymous function
+----------------
+when we use Arrow / anonymous functions, it will not be called immediately until user generated required events. Arrow/anonymous functions are only used when we want to pass on any input to the function. avoiding to write definition of function elsewhere.
+
+function APP(){
+				
+	return (
+			<button onClick = {()=>{alert('button clicked')}}> CLICK </button>		
+				)
+	}
+--------------------------------------------------------------------------------------------
+passing arguments to the function using Arrow or Anonymous function.
+
+function APP(){
+				function displayMessage(num){
+					alert("button clicked: "+ num);	
+	return (
+			<button onClick = {()=>{displayMessage(10)}}> CLICK </button>		
+				)
+	}
+
+Alert functions takes only one argument. so no commas between arguments. even if you give multiple arguments, it will take only first argument. for multiple inputs, use +.
+
+--------------------------------------------------------------------------------------------
+We can pass event inofrmation while handling an event.
+
+APP.js for onClick
+------------------
+
+function APP(){
+
+	function displayMessage(num){
+					alert("button clicked : "+ num);
+					console.log(event);
+			}
+	return (
+			<button onClick = {(event)=>{displayMessage(10, event)}}> CLICK </button>		
+				)
+	}
+console.log(event) => generates SyntheticBaseEvent related to React.
+console.log(event.target) => <button>CLICK</button>
+console.dir(event.target) => button (as object just like html JS)
+
+when we go see elements tab of developers window, we cannot locate, event on tag. this will be internally handled by React.
+-------------------------------------------------------------------------------------------------
+
+APP.js for onKeyUp
+------------------
+
+function APP(){
+
+	function displayMessage(num){
+					alert("button clicked : "+ num);
+					console.log(event);
+			}
+	return (
+			<input type = "text" onKeyUp = {(event)=>{displayMessage(10, event)}}/>		
+				)
+	}
+
+console.dir(event.target) => input (as object just like html JS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

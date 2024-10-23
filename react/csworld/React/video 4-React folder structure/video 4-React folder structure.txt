@@ -13,7 +13,7 @@ o	Public folder: It contains all public files and one index.html file. all files
 			
 				   
 o	Src folder: It contains JS, CSS files, and components. It is the main folder to convey the
-				JSX into the browser's way of understanding. whatever code we write in react, we write in source-src only. In react, different HTML syntax is being written, so to convert that code to browser understandable format, we need libraries which does such work. so architecture is build in such a way that those libraries will act on code written in src only. we can create sub-folders if necessary. basically, React => Javascript.
+				JSX into the browser's way of understanding. whatever code we write in react, we write in source-src only. In react, different HTML syntax is being written, so to convert that code to browser understandable format, we need libraries which does such work. so architecture is build in such a way that those libraries will act on code written in src only. we can create sub-folders if necessary. basically, React => Javascript(Babel).
 				
 			App.css- in React, we divide everything into components and assign a name to every component. here app.css means, a component by  name app, whatever css we can apply in this file. css is written in usual way like in Javascript.
 			App.js - every componet has js file specifically. here component name is app,for convention we give same name as css.

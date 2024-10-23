@@ -1,15 +1,16 @@
-NOTES: video 9-Component styling in react | How to apply css in react|React js in telugu Date: 17/oct/2024 ! CS world Telugu!
+NOTES: video 9-Component styling in react 
+Date: 17/oct/2024
 
 3 ways we can apply CSS.
 1. Create a global CSS file and include it in the index.html file using the link tag in the head section.
-2. Create a javascript object and declare the style attribute in a tag and assigned it to this style attribute using curly braces.
+2. Create a javascript object and declare the style attribute in a tag and assigned it to this style attribute using curly braces{{}}.
 3. Using external CSS and importing in the component at the top line.
 
 3: Creating external CSS file and importing it in respective component.
 -----------------------------------------------------------------------
 APP25.js
 --------
-import './APP25.css' ==> all the component js files and their respwective css files are placed in src folder only. for importing css file, only path is specified.
+import './APP25.css' ==> all the component js files and their respective css files are placed in src folder only. for importing css file, only path is specified.
 
 export function APP25 (){
 	return (

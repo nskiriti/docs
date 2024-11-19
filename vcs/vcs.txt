@@ -1,0 +1,72 @@
+Problems in Application Development?
+Problem 1:
+Code in Local Directory, if system got crashed, we will lose code.
+Problem 2:
+If two persons working on same file at a time, very difficult to merge.
+Problem 3:
+If we are creating files like versions like v1, v2, v3 etc.., it is very 
+difficult to maintain.
+--
+Solution: Version Control System or Source Code Management. 
+What is Version Control System?
+We can track changes that happen within directories of files.
+-
+What are the Version Control System Goals?
+Allow developers to work simultaneously and collabratively.
+Do not overwrite.
+Maintain History of every changes.
+--
+VCS Types
+Centralized
+	Client <-> Server Model
+	Ex: CVS, SVN
+--
+Distributed
+	Client  <-> Staging <-> Server Model
+	Local Directory <-> Staging Area <-> Remote Repository
+	Ex: github, gitlab, bitbucket
+--
+Central VCS
+Architecture:
+Local1-Directory
+Local2-Directory
+Local3-Directory
+	<-> 
+Remote-Repository
+--
+Cons:
+If the server is down, collaboration stops.
+If there is network issue b/w local and remote, we can’t go further.
+--
+Distributed VCS
+Architecture:
+Local1-Directory
+Local2-Directory
+Local3-Directory
+	<->
+Staging1-Area
+Staging2-Area
+Staging3-Area
+	<->
+Remote-Repository
+--
+Pros:
+If there is connection issue b/w local and remote, you can commit your changes 
+in staging area and we can work on local repository.
+Once connection established, we can work on Remote repository.
+--
+Working/Local	Directory/Repository
+Staging 		Area/Directory/Repository
+Git/Remote 		Directory/Repository
+--
+VCS	Version Controlling System
+CVS - Concurrent Versions System - https://www.nongnu.org/cvs/
+SVN - SubVersioN - https://subversion.apache.org/
+GIT - GIT - https://git-scm.com/
+--
+If you don’t want to self-host,
+use a third-party Git hosting service like
+GitHub (github.com)
+GitLab (gitlab.com)
+Bitbucket (bitbucket.org)
+--

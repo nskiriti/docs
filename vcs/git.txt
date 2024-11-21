@@ -34,7 +34,7 @@ Working with GIT
 	Convert Local Directory as Local Git Repository
 --
 What is the difference between Git and GitHub?
-Git is On Prrmise servers
+Git is on Prmise servers
 GitHub is on Cloud based servers
 --
 Diff b/w pull and fetch
@@ -92,11 +92,31 @@ Commit
 	Commit to Local Repository
 Push
 	Local /GIT to Remote/Github
-Different between Directory and Repository
-Folder
-Before Convert Local Directory as Local Git Repository
+What is the difference between Directory and Repository?
+Directory
+Before Converting Local Directory as Local Git Repository
 Repository
-After Convert Local Directory as Local Git Repository
-
+After Converting Local Directory as Local Git Repository
+--
 How to add github extension to vscode?
-WoW to setup default editor in github desktop?
+//TODO
+HoW to setup default editor in github desktop?
+//TODO
+What is the difference between origin/main to main branch?
+1. main Branch:
+Local Representation: The main branch is your local branch. It's the branch 
+stored and managed in your local repository.
+Current State: It reflects the latest state of the branch on your local 
+machine, including any changes you’ve made but not yet pushed or fetched.
+Editable: You can directly commit changes to this branch and work on it.
+2. origin/main Branch:
+Remote Representation: origin/main is the remote tracking branch. It represents 
+the state of the main branch on the remote repository (origin is the default 
+name for the remote repository).
+Stale Copy: This branch shows the last known state of the remote branch as of 
+your last git fetch or git pull.
+Read-Only: You cannot directly modify origin/main. It updates only when you 
+fetch or pull changes from the remote repository.
+--
+Reference Links
+https://git-scm.com/docs

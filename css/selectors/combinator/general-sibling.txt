@@ -1,0 +1,3 @@
+general sibling selector (~)
+    all sibling
+    selects all elements that are next siblings of a specified element.

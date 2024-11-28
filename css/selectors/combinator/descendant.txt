@@ -1,0 +1,2 @@
+descendant selector (space)
+    matches all elements that are descendants of a specified element.

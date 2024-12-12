@@ -1,0 +1,46 @@
+JavaScript runtime engines
+    Browser Based Runtime Engines
+    Command Based Runtime Engines
+--
+Browser Based Runtime Engines
+    Apple		Safari	Nitro
+    Firefox     Mozilla SpiderMonkey     
+	Google 		Chrome	V8			
+	Microsoft	Edge	V8
+    etc.
+--
+Command Based Runtime Engines
+	OpenJs		NodeJS	V8
+    Deno        Deno    V8
+    etc.  
+--
+Which programming languages will produces Machine Code?
+    C, C++ etc.
+    Programming Code .c
+    Machine Code
+    Operating System and Hardware
+--
+Which programming languages will produces Bytecode?
+    java, python, C# etc.
+    Programming Code .java
+    Bytecode .class
+    OPCODE
+    Machine Code
+    Operating System and Hardware
+--
+Bytecode:
+High-level intermediary code.
+Typically produced by compilers for virtual machines (e.g., Java Bytecode for 
+the JVM).
+Requires interpretation or compilation to run on physical hardware.
+--
+OPCODE (Operation Code):
+A symbolic or numeric code representing a specific machine instruction.
+Part of the machine code that specifies the operation to be performed.
+--
+Machine Code:
+Lowest-level code directly executed by a computer's CPU.
+Composed of binary instructions specific to the processor architecture.
+This hierarchy reflects increasing proximity to the hardware as you move 
+downward.
+--

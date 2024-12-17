@@ -1,4 +1,4 @@
-var x = 1; // global variable
+var book = 1; // global variable
 function main() {
 	console.log("main method start");
 	//nothing();
@@ -61,11 +61,13 @@ function usageBeforeDeclaration() {
 }
 function blockScope() {
 	console.log("blockScope function start");
-	var x = 1; // local variable
+	var book = 1; // local variable
 		{
-			var x = 2; // block variable
-			console.log("x = "+x);
+			var book = 2; // block variable
+			console.log("book = "+book);
 		}
-		console.log("x = "+x);
+		console.log("book = "+book);
 	console.log("blockScope function end");
 }
+main();
+console.log("book = "+book);

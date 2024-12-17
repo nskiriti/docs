@@ -1,5 +1,4 @@
-var x = 1; // global variable
-
+let book = 3; // global variable
 function main() {
 	console.log("main function start");
 	// redeclaration();
@@ -8,7 +7,7 @@ function main() {
 	// declarationAndDefinitionInSingleLine();
 	// reAssignment();
 	blockScope();
-	//copyData();
+	// copyData();
 	console.log("main function end");
 }
 
@@ -25,6 +24,7 @@ function usageBeforeDeclaration() {
 	let x = 2;
 	let y = 3;
 	let z = x + y;
+	console.log("z = "+z)
 	console.log("usageBeforeDeclaration function end");
 }
 
@@ -57,21 +57,21 @@ function reAssignment() {
 
 function blockScope() {
 	console.log("function Scope start");
-	let x = 1;
+	let book = 1;
 	{
 		console.log("blockScope start");
-		let x = 2;
-		console.log("x = "+x);
+		let book = 2;
+		console.log("book = "+book);
 		console.log("blockScope end");
 	}
-	console.log("x = "+x);
+	console.log("book = "+book);
 	console.log("function Scope end");
 }
 
 function copyData() {
 	console.log("copyData start");
-	let n1 = 10;
-	let n2;
+	let n1 = 10; 
+	let n2; 
 	let n3;
 	n3 = n2 = n1;
 	console.log("value of n1 = "+n1);
@@ -79,3 +79,5 @@ function copyData() {
 	console.log("value of n3 = "+n3);
 	console.log("copyData end");
 }
+main();
+console.log("book = "+book);

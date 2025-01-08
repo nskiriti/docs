@@ -1,15 +1,40 @@
 function main() {
   console.log("main function start");
-  // undefined1);
-  null1();
+  // undefinedFun();
+  // nullFun();
   // number();
   // bigint();
   // string();
-  //boolean();
+  // boolean();
   // dynamic();
   // arrays();
-  // objects();
+  objects();
   console.log("main function end");
+}
+
+function undefinedFun() {
+  console.log("undefinedFun function start");
+  let n1;
+  console.log("value of n1 = " + n1 + " and datatype of n1 = " + typeof n1);
+  console.log("undefinedFun function end");
+}
+
+function nullFun() {
+  console.log("nullFun function start");
+  let n1 = null;
+  console.log("value of n1 = " + n1 + " and datatype of n1 = " + typeof n1);
+  console.log("nullFun function end");
+   console.log("main function start");
+   //undefined1();
+   //null1();
+   //number();
+   //bigint();
+   //string();
+   //boolean1();
+   //dynamic();
+   //arrays();
+   //objects();
+   console.log("main function end");
 }
 function undefined1() {
 	let n1;
@@ -27,21 +52,21 @@ function number() {
   console.log("value of n1 = " + n1 + " and type of n1 = " + typeof n1);
   n1 = 9007199254740991;
   console.log("value of n1 = " + n1 + " and type of n1 = " + typeof n1);
+	let n2 = 9007199254740999;
+	console.log(n2);
+	console.log("The value of n2 = " + n2);
+	console.log("The datatype of n2 = " + typeof n2);
   console.log("number function end");
-	//let n1 = 9007199254740999;
-	console.log(n1);
-	console.log("The value of n1 = " + n1);
-	console.log("The datatype of n1 = " + typeof n1);
 }
 function bigint() {
   console.log("bigint function start");
-  let n1 = 9007199254740992n;
+  let n1 = 23n;
   console.log("value of n1 = " + n1 + " and type of n1 = " + typeof n1);
+	let n2 = 9007199254740999111111n;
+	console.log(n2);
+	console.log("The value of n2 = " + n2);
+	console.log("The datatype of n2 = " + typeof n2);
   console.log("bigint function end");
-	let n1 = 9007199254740999n;
-	console.log(n1);
-	console.log("The value of n1 = " + n1);
-	console.log("The datatype of n1 = " + typeof n1);
 }
 function string() {
   console.log("string function start");
@@ -70,9 +95,6 @@ function boolean() {
     " and type of expression = " + typeof (x == y)
   );
   console.log("boolean function end");
-	let s1 = "Surya";
-	console.log("The value of s1 = " + s1);
-	console.log("The datatype of s1 = " + typeof s1);
 }
 function boolean1() {
 	let isManager = true;
@@ -101,16 +123,16 @@ function dynamic() {
   n1 = true;
   console.log("value of n1 = " + n1 + " and type of n1 = " + typeof n1);
   console.log("dynamic function end");
-	let n1;
+	let n2;
+	console.log(n2);
+	console.log("The value of n1 = " + n2);
+	console.log("The datatype of n1 = " + typeof n2);
+	n2 = 9007199254740999;
 	console.log(n1);
-	console.log("The value of n1 = " + n1);
-	console.log("The datatype of n1 = " + typeof n1);
-	n1 = 9007199254740999;
-	console.log(n1);
-	console.log("The value of n1 = " + n1);
-	console.log("The datatype of n1 = " + typeof n1);
-	n1 = 9007199254740999n;
-	console.log(n1);
+	console.log("The value of n2 = " + n2);
+	console.log("The datatype of n2 = " + typeof n2);
+	n2 = 9007199254740999n;
+	console.log(n2);
 	console.log("The value of n1 = " + n1);
 	console.log("The datatype of n1 = " + typeof n1);
 	n1 = "9007199254740999n";
@@ -136,9 +158,8 @@ function objects() {
   const employee1 = {
     firstName: "Ravi",
     lastName: "Kumar",
-    age: 35, 
-	email: "ravi.kumar@gmail.com",
-    isPeminent: true
+    age: 35, email: "ravi.kumar@gmail.com",
+    isPerminent: true
   };
   const employee2 = {
     firstName: "Hemanth",
@@ -162,3 +183,4 @@ function objects() {
 	console.log("The value of o1 = " + o1);
 	console.log("The datatype of o1 = " + typeof o1);
 }
+main();

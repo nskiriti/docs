@@ -80,6 +80,8 @@ What is the difference between web browser and web server?
         It will be installed in server machine.
     Example:
         Tomcat, Jboss, weblogic.
+	Basically there are 3 types of servers 1. Application server ex: 
+										   2. Hardware servers ex: 	
 --
 Tell me about HTML history?
     Since the early days of the World Wide Web, there have been many versions 
@@ -100,7 +102,10 @@ Year	Version
 2017	W3C Recommendation: HTML5.2
 --
 What is the difference between html4 and html5?
-Doctype
+	Doctype is instruction to the web browser about the version of HTML that is written.HTML5 has 50+ additional tags compared to HTML4. there is audio and video support and improved "FORM" controls from HTML4 like <input type = "date", "time", "password">. color tag,map tag,polygon tags(canvas tags with height and width as attributes) ,graphics tags and range slider tags are available unlike HTML4.
+	
+	<datalist>, <keygen>, <output>, <meter>, <progress> are in HTML5 only.
+
 HTML4
 <!DOCTYPE HTML PUBLIC "-  W3C  DTD HTML 4.01  EN" "http://www.w3.org/TR/html4 
 strict.dtd">
@@ -108,16 +113,16 @@ HTML5
 <!DOCTYPE html>
 --
 New elements
-<header>, <footer>, <nav>, <audio>, <video>, <main> and etc...
+	<header>, <footer>, <nav>, <audio>, <video>, <main> and etc...
 --
 New form controls
-date, time, email, number, category, title, url, search and etc...
+	date, time, email, number, category, title, url, search and etc...
 --
 Multimedia support
-HTML4	No Support
-HTML5	audio and video
+	HTML4	No Support
+	HTML5	audio and video
 --
 storage
-HTML4	cache and cookies
-HTML5	local storage and session storage
+	HTML4	cache and cookies
+	HTML5	local storage and session storage
 --

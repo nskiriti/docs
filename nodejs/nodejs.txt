@@ -1,3 +1,17 @@
+Google 	V8 JavaScript runtime engine
+		Google 		Chrome			
+		Microsoft	Edge
+		--
+		OpenJs		NodeJS
+		javascript 
+			V8 JavaScript engine 
+			hardware
+			--
+		C++, C#, objectiveC, java, python
+		OPCODE
+		Byte Code - and bits 0, 1
+		hardware
+
 What is NodeJs?
 Node.js is an open-source, cross-platform, JavaScript runtime environment,
 Which is built on Chrome's V8 JavaScript engine and executes JavaScript code 
@@ -24,13 +38,13 @@ How to set nodejs path?
 	Click on windows + S.
 	In search bar, then type environment variables.
 	There you can find User variables and System variables.
-	If you are the Admin then go for System variables and find Path name in 
+	If you are the Admin then go for System variables and find "Path" name in 
 	that window.
-	There click on edit and copy the nodejs path from the folder(where you have 
-	downloaded) and paste it in the path window and click on OK.
+	copy the nodejs path from the folder(where you have 
+	installed) and paste it in the path window after choosing add and click on OK. your path has to be directed towards npm and npx commands
 	If you are the user then go for User variables and find the Path name in 
 	that window.
-	There click on edit and copy the nodejs path from the folder(where you have 
+	There click on add and copy the nodejs path from the folder(where you have 
 	downloaded) and paste it in the path window and click on OK.
 	After this,you can run the nodejs (by using cmd) from any folder of the 
 	system.
@@ -58,3 +72,10 @@ What is compilation time?
 What is run time?
 	// TODO java
 --
+Openjs is currently under Linux foundation.
+Nodejs LTS - latest stable version
+--
+ What are Nodejs commands?
+	to know version: node -v
+	
+Java versions are downloaded from openjdk websites.	

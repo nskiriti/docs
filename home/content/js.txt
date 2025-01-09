@@ -10,6 +10,7 @@ Syntax					YES			YES			YES
 comments				YES			No			No
 Identifiers             YES			YES			YES
 Reserved                YES			YES			YES
+Variables				YES			YES			YES	
 Var						YES			YES			YES
 Let						YES			No			No
 Const					YES			No			No

@@ -1,5 +1,5 @@
 What are Variables?
-	Variables are containers or storage-location for storing the values.
+	Variables are containers or storage-location for storing the values for later usage.
 	Example:
 		x = 1;
 		y = 2;
@@ -29,18 +29,25 @@ var
 		var firstName;
 --
 What is undefined?
-	A variable declared without a value/definition will have the value as 
+	A variable declared without a value/definition/initilization will have the value as 
 	undefined.
-	A variable declared without a value/definition will have the type as 
+	A variable declared without a value/definition/initilization will have the type as 
 	undefined.
 --
 What is NaN?
 	NaN is short for "Not-a-Number".
 	NaN is a number that is not a legal number.
+	
+	Operations with Undefined or Null
+	let value;
+	let result = value * 10;
+	console.log(result); // NaN
+	Multiplying an undefined value by a number results in NaN.
+
 --
 What are disadvantages of using var?
 	variable re-declaration is possible.
-	variable usage before variable declaration is possible.
+	variable usage before variable declaration is possible.(Hoisting)
 --
 When to use var?
 	We should not use var, use let and const.
@@ -59,3 +66,8 @@ What is the difference between var, let and const?
 	var		No		Yes			Yes			Yes			Yes
 	let		Yes		No			Yes			No			No
 	const	Yes		No			No			No			No
+	
+===========================================================================================
+--
+In 2015, JS new version, ES6 is released. Let & const were introduced to declare a variable.
+log is a method to print in console.	

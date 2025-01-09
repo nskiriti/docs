@@ -41,6 +41,7 @@ Live -server: even during putting our application in live server. we dont push n
 What are dependencies in package.json?
 package = libraries =version ; @testing libraries are files used for testing
 react -- used for running react, writing our application using react and for other configuration.
+
 if we carefully look at, in package.json currently there are only 7 files but in node_modules there are n number of files. so package.json configures only main libraries. but for example react of 7 other libraries is dependant on other libraries which are not mentioned in package.json, when "npm install" command is pressed all other depending libraries are loaded into node_modules of user. so package.json  = node_modules(which includes indirect dependencies)
 
 What are scripts in package.json?

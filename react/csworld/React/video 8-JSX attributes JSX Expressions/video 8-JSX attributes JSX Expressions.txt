@@ -54,6 +54,7 @@ export function Header(){
 	}
 
 Defining sum function.
+---------------------
 function sum (n1, n2){
 	return n1 + n2;
 	}

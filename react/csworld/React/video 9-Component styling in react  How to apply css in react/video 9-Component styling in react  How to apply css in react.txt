@@ -8,19 +8,6 @@ Date: 17/oct/2024
 
 3: Creating external CSS file and importing it in respective component.
 -----------------------------------------------------------------------
-APP25.js
---------
-import './APP25.css' ==> all the component js files and their respective css files are placed in src folder only. for importing css file, only path is specified.
-
-export function APP25 (){
-	return (
-	<div>
-		<h1 class ="prop1">This is heading</h1>
-		<p id ="par1"> This is para</p>
-	</div>	
-			)
-				}
-In JSX, there should be only one parent element.	
 APP25.css
 ---------
 .prop1 {
@@ -31,6 +18,20 @@ APP25.css
 	coclor: red;
 	}	
 	
+APP25.js
+--------
+import './APP25.css' ==> all the component js files and their respective css files are placed in src folder only. for importing css file, only path is specified since it is in src like js files.
+
+export function APP25 (){
+	return (
+	<div>
+		<h1 className ="prop1">This is heading</h1>
+		<p id ="par1"> This is para</p>
+	</div>	
+			)
+				}
+In JSX, there should be only one parent element.	
+
 2. Inline styling: Creating an object and include styles as key value pairs, and in JSX include this object under style attribute using {} to evaluate javascript expression.
 passing an JS object in style attribute of JSX notation. object is variable so we need {}
 inline style overrides APP25.css file.

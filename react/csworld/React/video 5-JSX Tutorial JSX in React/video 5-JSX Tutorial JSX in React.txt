@@ -83,6 +83,10 @@ function functionName(){
  Please refer to below link for chatgpt explanation about JSX.
  
  https://chatgpt.com/share/670fcc7c-7040-8010-bfa8-25f277535b06
+ 
+ JSX has both HTML and JS, so common words from both are given new names in JSX, to avoid confusion.
+ 
+ Ex: className {HTML - class, class in JS}
 
 
 

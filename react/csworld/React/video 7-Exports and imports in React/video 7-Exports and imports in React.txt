@@ -43,7 +43,7 @@ INDEX.js
 import {person, x} from './APP.js'
 
 ------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------------
 
 APP.js(default export)
 ----------------------
@@ -76,7 +76,7 @@ import {person as p, x} from './APP.js'
 console.log(p)=== console.log(person)
 ---------------------------------------------------------------------- 
 A module cannot have multiple default exports.
-for named exports curly braces and alias names(person as p); for default exports alias names or its name will work(person or o or ppp or fff ).
+for named exports curly braces and alias names(person as p, within {}); for default exports alias names or its name will work(person or o or ppp or fff ).
 
 import x,{person} from './APP.js ==> 1 default and 1 named export.
 alias name can be used instead of x, and in this imported file, exported default x can be pointed out as y.

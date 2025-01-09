@@ -17,7 +17,7 @@ What is NPM CLI?
 	CLI also comes along with nodeJs
 --
 What is the latest version of NPM?
-	9.5.1
+	11.0.0 
 What- are npm commands that you know?
 	npm install
 	npm uninstall
@@ -35,3 +35,4 @@ local libraries
 	apps-->hrms-->node_modules
 	npm install -l package-name
 ==
+Earlier we used to Installing NPM first and then Nodejs. but now it is otherwise.

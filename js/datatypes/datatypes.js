@@ -162,3 +162,4 @@ function objects() {
 	console.log("The value of o1 = " + o1);
 	console.log("The datatype of o1 = " + typeof o1);
 }
+main();

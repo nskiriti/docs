@@ -48,3 +48,7 @@ Below are the block level elements.
 <header><nav><main><article><aside><footer>
 <address><blockquote><canvas><dd><dl><dt><fieldset><figcaption><figure><hr>
 <noscript><pre><section>
+
+---
+DIV: width = 100%, Height = auto  => block => container
+SPAN: width = auto, Height = auto => inline => As we wish

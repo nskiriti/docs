@@ -74,4 +74,8 @@ What is run time?
 --
 Openjs is currently under Linux foundation.
 Nodejs LTS - latest stable version
- 
+--
+ What are Nodejs commands?
+	to know version: node -v
+	
+Java versions are downloaded from openjdk websites.	

@@ -23,6 +23,7 @@ What- are npm commands that you know?
 	npm uninstall
 	npm update
 	npm diff
+	npm -v(but for java -version)
 ==
 What is the difference between remote, global, local libraries?
 remote libraries	
@@ -36,3 +37,4 @@ local libraries
 	npm install -l package-name
 ==
 Earlier we used to Installing NPM first and then Nodejs. but now it is otherwise.
+as Nodejs comes along with npm. install typescript(from available options, global preferred)and can be compiled first then run on nodejs.

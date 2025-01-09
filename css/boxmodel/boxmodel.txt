@@ -1,0 +1,51 @@
+What is the use of Box Model?
+	All HTML elements can be considered as boxes.
+	We use Box Model to design and style the element.
+--
+What is the structure of Box Model?
+	Box model is essentially a box that wraps around each html element.
+	It consists of: content, padding, border and margin.
+		Content - The content of the box, where text and images appear
+		Padding - Clears an area around the content. The padding is transparent
+		Border - A border that goes around the padding and content
+		Margin - Clears an area outside the border. The margin is transparent
+--
+What happen when you set width and height of an element?
+	When you set the width and height of an element, you just set the width and 
+	height of the content area only not for padding, border and margin.
+	To calculate full size of an element, you must also add padding, border and margin to that element.
+--
+How to calculate the full width of an element.
+	Full width = element width + left and right padding + left and right border + left and right margin
+	Example:
+	div {
+		width: 300 px;
+		padding: 50 px;
+		border: 10 px solid yellow;
+		margin: 30 px;
+		background-color : lightblue;
+		}
+	Here is the Calculation:
+		300 px (width)
+		+(50+50)-left and right padding
+		+(10+10)-left and right border
+		+(30+30)-left and right margin
+		= 480 px
+--
+How to calculate the full height of an element?
+Full height = element height + top and bottom padding + top and bottom border + top and bottom margin
+	Example:
+	div {
+		height: 200 px;
+		padding: 10 px;
+		border: 20 px solid yellow;
+		margin: 30 px;
+		background-color : lightblue;
+		}
+	Here is the Calculation:
+		200 px (width)
+		+(10+10)-left and right padding
+		+(20+20)-left and right border
+		+(30+30)-left and right margin
+		= 320 px
+--

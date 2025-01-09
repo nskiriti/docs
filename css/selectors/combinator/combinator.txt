@@ -1,0 +1,16 @@
+What are combinator selectors?
+A combinator is something that explains the relationship between the 
+selectors.
+How many types of combinator selectors are there?
+    descendant selector (space)
+        direct and indirect elements
+        selects all elements that are descendants of a specified element.
+    child selector (>)
+        direct child elements
+        selects all elements that are the children of a specified element.
+    adjacent sibling selector (+)
+        immediate sibling
+        select an element that is directly after another specific element.
+    general sibling selector (~)
+        all sibling elements
+        selects all elements that are next siblings of a specified element.

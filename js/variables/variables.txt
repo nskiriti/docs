@@ -1,8 +1,8 @@
 What are Variables?
 	Variables are containers or storage-location for storing the values.
 	Example:
-		x = 123;
-		y = 124;
+		x = 1;
+		y = 2;
 		z = x + y;
 --
 In how many ways we can declare variables in javascript?
@@ -13,10 +13,10 @@ In how many ways we can declare variables in javascript?
 	const
 --
 nothing
-	Syntax:
-		variable_name = variable_value;
-		declaration = definition;
-	Example:
+Syntax:
+	variable_name = variable_value;
+	declaration = definition;
+Example:
 	employeeId = 101;
 	firstName = "Ravi";
 --

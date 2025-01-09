@@ -3,8 +3,8 @@ function main() {
 	//redeclaration();
 	//usageBeforeDeclaration();
 	//declarationAndDefination();
-	//reAssignment();
-	blockScope();
+	reAssignment();
+	//blockScope();
 	//hoisting();
 	//redeclarationAndBlockScope();
 	console.log("main method end");
@@ -29,16 +29,16 @@ function usageBeforeDeclaration() {
 
 function declarationAndDefination() {
 	console.log("declarationAndDefination method start");
-	// const x; // declaration // SyntaxError: Missing initializer in const 
-	// x = 2; // defination
-	const x = 2;
+	//const aadharNo; // declaration // SyntaxError: Missing initializer in const 
+	// aadharNo = 1234 1234 4567; // defination
+	 const aadharNo = 123412344567;
 	console.log("declarationAndDefination method end");
 }
 
 function reAssignment() {
 	console.log("reAssignment method start");
-	const num1 = 2; // declaration + defination
-	num1 = 4; // TypeError: Assignment to constant variable.
+	const aadharNo = 100023432333; // declaration + defination
+	aadharNo = 123412344567; // TypeError: Assignment to constant variable.
 	console.log("reAssignment method end");
 }
 
@@ -87,3 +87,4 @@ function redeclarationAndBlockScope() {
 	console.log(y);
 	console.log("redeclarationAndBlockScope method end");
 }
+main();

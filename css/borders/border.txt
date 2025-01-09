@@ -1,0 +1,70 @@
+How to apply border?
+	border properties allows us to specify the width, style, color and radius 
+	of an element border.
+--
+What is border-style property?
+	border-style property specifies what kind of border to display like 
+	solid, dotted and dashed etc.
+	Syntax
+		border-style: value;
+	Example
+		border-style:solid;
+	--
+How to apply specific side border style?
+	border-top-style
+	border-right-style
+	border-bottom-style
+	border-left-style
+	--
+What is border-width property?
+	border-width property specifies the width of the four borders.
+	The width can be set as a specific size (in px, pt, cm, em etc)
+	or by using predefined values like thin, medium or thick.
+	--
+Syntax
+	border-style: value;
+	border-width: value;
+Example
+	border-style: solid;
+	boder-width: 5px;
+--
+Note:
+apply border-style property before applying the border-width property.
+--
+How to apply specific side border width?
+Syntax
+	border-width: top-and-bottom right-and-left;
+	border-width: top right bottom left;
+Example
+	border-width : 10px 15px;
+	border-width : 10px 15px 20px 25px;
+--
+What is border-color property?
+	The border-color property is used to set the color of the four borders.
+	Apply border-style, border-width property before applying the 
+	border-color property.
+	If border-color is not set, it inherits the color of the element.
+	Example:
+	border-color: red;
+How to apply specific side border color?
+	Example:
+	border-color: red green;
+	border-color: red green blue yellow;
+--
+What is border-Shorthand Property?
+	To shorten the code, it is possible to specify all individual border properties in one property.
+Syntax:
+	border : width style color;
+Exmple:
+	border: 5px solid green;
+--
+How to apply specific border?
+	border-top
+	border-right
+	border-bottom
+	border-left
+--
+How to apply rounded borders?
+border-radius property is used to add round borders to an element.
+--
+How to make div as a circle and align it into center?

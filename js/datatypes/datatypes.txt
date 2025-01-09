@@ -17,6 +17,7 @@ number
 		variable_type variable_name = number;
 	Example:
 		let n1 = 123456789;
+		n1= "ravi";
 --
 bigint
 	Range
@@ -28,19 +29,15 @@ bigint
 --
 String
 	syntax:
-		variable_type variable_value = "number+n";
+		variable_type variable_name = "number+n";
 	Example:
-		let n1 = "1234567890123456789012345678901234567890_no_length_limit";
+		let  n1 = "1234567890123456789012345678901234567890_no_length_limit";
 --
 What is the concept of Data Types?
 	In programming, datatypes are important concept.
 	To be able to operate on variables, it is important to know something about 
 	the type.
 	Without datatypes, it is difficult for the computer to solve.
---
-Is Javascript types are dynamic ?
-	yes, javascript types are dynamic this means that the same variable can be 
-	used to hold different datatypes.
 --
 Is Javascript types are dynamic?
 	yes, javascript types are dynamic this means that the same variable can be 
@@ -59,11 +56,14 @@ What are Javascript Numbers?
 What are Javascript Booleans?
 	Booleans can only have two values : true or false.
 	Booleans are often used in conditional testing.
+	isReserved = true;
 --
 What are Javascript Arrays?
 	Javascript Arrays are written in square brackets and the array items are 
 	separated with comma.
 	Arrays are started with index zero, it means the first item is [0].
+
+	
 --
 What are Javascript Objects?
 	Javascript Objects are written in curly braces .

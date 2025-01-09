@@ -1,0 +1,48 @@
+.bgc {
+	height: 200px;
+	background-color: #f3faf3;
+}
+
+.bgi {
+	height: 200px;
+	background-image: url("paper.gif");
+}
+
+.bginr {
+	height: 200px;
+	background-image: url("paper.gif");
+	background-repeat: no-repeat;
+}
+
+.bgirx {
+	height: 800px;
+	background-image: url("gradient_bg.png");
+	background-repeat: repeat-x;
+}
+
+.bgiry {
+	height: 800px;
+	background-image: url("gradient_bg.png");
+	background-repeat: repeat-y;
+}
+
+.bgipr {
+	height: 800px;
+	background-image: url("img_tree.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.bgiaf {
+	height: 800px;
+	background-image: url("img_tree.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+	background-color: lightblue;
+}
+
+.bgs {
+	height: 800px;
+	background: url("img_tree.png") no-repeat left lightblue;
+}

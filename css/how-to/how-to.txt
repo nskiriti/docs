@@ -1,0 +1,47 @@
+How to insert/add/link css with html?
+There are three ways to insert CSS with html.
+	1. inline css
+	2. internal css 
+	3. external css
+--
+What is inline CSS?
+Writing the css within the html element using style attribute is called 
+inline css.
+Inline css is used to apply a unique style for a single element.
+To use inline css, add the style attribute to the relevant element.
+The style attribute can contain any CSS property.
+--
+What is an internal CSS?
+Writing the css with in the style tag of html page is called internal css.
+Internal css is used if one single html page has unique style.
+Internal css is defined inside the <style> element.
+--
+What is an External CSS?
+Writing the css in .css file is called external css.
+We can link css file with html file using link tag.
+With an external style sheet, you can change the entire look of an website by 
+changing just one file.
+--
+What are Multiple Style Sheet?
+If some properties have been defined for the same selector in different style 
+sheets, the value from the last style sheet will be used.
+--
+What is the Cascading Order in css?
+	or
+What style will be used when there is more than one style specified for an HTML 
+element?
+All the styles in a page will "cascade" into a new "virtual" style sheet by the 
+following rules, where number one has the highest priority:
+	1. Inline style
+	2. Internal style
+	3. External style
+	4. Browser default style
+So, an inline style has the highest priority, and will override external and 
+internal and browser defaults.
+FAQs
+Which style is priority	among the three styles?
+Inline style is the first priority.
+--
+Which style is recommended to use in html code?
+External style is recommended to use.
+--

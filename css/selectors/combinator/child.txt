@@ -1,0 +1,2 @@
+child selector (>)    
+    selects all elements that are the children of a specified element.

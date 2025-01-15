@@ -1,0 +1,68 @@
+1. why front end frameworks choosing Typescript over the Javascript?
+
+Front-end frameworks increasingly favor **TypeScript over JavaScript** because of its **stronger type system, improved developer experience, and maintainability benefits**. Here’s why:  
+
+### **1. Type Safety & Fewer Bugs**  
+- TypeScript provides **static typing**, catching errors **during development** instead of at runtime.  
+- It helps prevent common mistakes like **undefined properties or incorrect function arguments**, making applications more robust.  
+
+### **2. Better Developer Experience (DX)**  
+- **IntelliSense & Autocompletion**: Editors like VS Code offer **better autocompletion and inline documentation**.  
+- **Refactoring & Code Navigation**: TS makes it easier to rename variables, track types, and refactor code safely.  
+
+### **3. Scalability & Maintainability**  
+- In large applications, TypeScript helps teams **define clear contracts** between different parts of the codebase.  
+- Reduces **technical debt** by making sure future developers understand expected types and data structures.  
+
+### **4. Improved Code Quality & Readability**  
+- With TypeScript, teams write **self-documenting code**, reducing the need for excessive comments or external documentation.  
+- Enforces **consistent coding patterns**, which is especially useful for large teams.  
+
+### **5. Popular Frameworks Use TypeScript**  
+- **React, Angular, Vue, Next.js, Svelte, and Solid.js** have all embraced TypeScript.  
+- Some frameworks like **Angular** are TypeScript-first, making TS the default choice.  
+
+### **6. Backward Compatibility with JavaScript**  
+- TypeScript is a **superset of JavaScript**, meaning all JavaScript code is valid TypeScript.  
+- Developers can gradually adopt TypeScript without rewriting the entire codebase.  
+
+### **7. Tooling & Ecosystem**  
+- **ESLint + TypeScript** enables better linting and static analysis.  
+- **Strong community support** and many open-source libraries now offer built-in TypeScript definitions.  
+
+### **Conclusion**  
+While JavaScript remains widely used, **TypeScript is becoming the preferred choice for modern front-end frameworks** due to its improved reliability, maintainability, and developer experience. It helps teams write **cleaner, safer, and more scalable** code.  
+
+
+2. Is Javascript and ECMA script both same?
+
+No, **JavaScript and ECMAScript are not exactly the same**, but they are closely related.  
+
+### **1. ECMAScript (ES) – The Standard**  
+- **ECMAScript** (ES) is the **official specification** that defines the rules, syntax, and features of JavaScript.  
+- It is maintained by **ECMA International** (a standards organization) under **ECMA-262**.  
+- **Think of ECMAScript as the blueprint for JavaScript**.  
+
+### **2. JavaScript – The Implementation**  
+- **JavaScript** is a **programming language** that follows the ECMAScript specification.  
+- It is implemented in browsers (like Chrome, Firefox, Edge) and environments (like Node.js).  
+- **Think of JavaScript as the real-world application of ECMAScript**.  
+
+### **3. ECMAScript Versions (ES5, ES6, etc.)**  
+- New features in JavaScript come from ECMAScript updates.  
+- Example:  
+  - **ES5 (2009)** – `strict mode`, `JSON support`, `Array.prototype.forEach()`  
+  - **ES6 (2015)** – `let/const`, `arrow functions`, `classes`, `modules`  
+  - **ES7+ (2016 onward)** – `async/await`, optional chaining (`?.`), `BigInt`  
+
+### **4. Other Implementations of ECMAScript**  
+- JavaScript is the most popular ECMAScript-based language, but others exist:  
+  - **ActionScript** (used in Adobe Flash)  
+  - **JScript** (Microsoft’s version for IE)  
+
+### **Conclusion**  
+- **ECMAScript is the specification** that defines how JavaScript should work.  
+- **JavaScript is an implementation** of ECMAScript, adding extra features like **DOM APIs, Web APIs, and event handling**.  
+
+
+3. 	

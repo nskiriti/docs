@@ -15,7 +15,7 @@ What is <html>?
     This is the root tag in html page.
 --
 What is <head>?
-    It contains meta information about the page.//TODO
+    It contains meta(data about data) information about the page.//TODO
     The content which is written in this element will not be visible in the
     web page.
 --

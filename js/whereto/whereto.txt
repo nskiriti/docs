@@ -54,7 +54,7 @@ What are the advantages of writing javascript in External files?
 	It makes HTML and JavaScript easier to read and maintain.
 	We can reuse the javascript code into different html files.
 	Cached JavaScript files can speed up page load.
-	--I need to ask ravi sir after 1 month.
+	
 --
 How many javascript files, we can include in html file?
 	You can include many files as you want, there is no limitation

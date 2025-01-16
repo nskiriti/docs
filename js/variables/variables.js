@@ -2,11 +2,11 @@ var book = 1; // global variable
 function main() {
 	console.log("main method start");
 	//nothing();
-	var1();
+	//var1();
 	//nan();
 	//redeclaration();
 	//usageBeforeDeclaration();
-	//blockScope();
+	blockScope();
 	console.log("main method end");
 }
 function nothing() {

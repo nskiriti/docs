@@ -6,8 +6,8 @@ function main() {
 	// declarationAndDefinitionInMultipleLine();
 	// declarationAndDefinitionInSingleLine();
 	// reAssignment();
-	blockScope();
-	// copyData();
+	//blockScope();
+	 copyData();
 	console.log("main function end");
 }
 

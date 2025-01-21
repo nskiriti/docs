@@ -11,10 +11,10 @@ comments				Yes			Yes			No
 Identifiers             Yes			Yes			No
 Reserved                Yes			Yes			No
 Variables				Yes			Yes			No	
-Var						No			No			No
-Let						No			No			No
-Const					No			No			No
-Operators				No			No			No
+Var						Yes			Yes			No
+Let						Yes			Yes			No
+Const					Yes			Yes			No
+Operators				Yes			Yes			No
 Datatype                No			No			No       
 Functions               No			No			No
 Conditions              No			No			No

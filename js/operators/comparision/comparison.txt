@@ -25,6 +25,20 @@ String Comparison
 		let y = "Hi";
 		console.log(x > y); //false
 		console.log(x < y); //true
+		
+		These lines compare the string values of x and y using the greater than (>) and less than (<) operators.
+
+		•  String Comparison: In JavaScript, strings are compared based on their Unicode values, character by character.
+
+		•  "Hello" has the Unicode values: H (72), e (101), l (108), l (108), o (111)
+
+		•  "Hi" has the Unicode values: H (72), i (105)
+
+		•  Comparison Result:
+
+		•  x > y evaluates to false because the first differing character is e (101) in "Hello" and i (105) in "Hi". Since 101 is less than 105, "Hello" is considered less than "Hi".
+
+		•  x < y evaluates to true for the same reason.
 
 Note:
 	For instance, case matters. A capital letter "A" is not equal to the 

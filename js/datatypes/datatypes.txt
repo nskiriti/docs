@@ -39,8 +39,8 @@ What is the concept of Data Types?
 	the type.
 	Without datatypes, it is difficult for the computer to solve.
 --
-Is Javascript types are dynamic?
-	yes, javascript types are dynamic this means that the same variable can be 
+Is Javascript datatypes are dynamic?
+	yes, javascript datatypes are dynamic this means that the same variable can be 
 	used to hold different datatypes.
 --
 What are Javascript Strings?

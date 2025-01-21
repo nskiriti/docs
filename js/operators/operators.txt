@@ -17,6 +17,13 @@ The += assignment operator can also be used to add (concatenate) strings:
 	Example:
 		let text1 = "Ravi";
 		console.log (text1 += "kumar");
+		
+		let x = "surya";
+		let y = "chandra";
+		console.log(x + y); //suryachandra
+		x+=y; // y is added to x and result is stored in x.
+		console.log(x);// suryachandra
+		console.log(x + y);//suryachandrachandra
 ----
 Adding Strings and Numbers
 	Adding two numbers, will return the sum, but adding a number and a string 

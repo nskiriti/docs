@@ -36,6 +36,7 @@ What is <h1> to <h6>?
 --
 What is <p>?
     This element defines a paragraph.
+	
 --
 What is an HTML Element?
     HTML element is defined by start tag, some content, and end tag.
@@ -64,7 +65,7 @@ What is the difference between tag and element?
 What is the browser?
     The purpose of a browser is to read HTML documents and display them 
     correctly. Browser does not display the HTML tags, but uses them to 
-    determine how to display the document.
+    determine how to display the content in the document.
     Example:
     Chrome, Edge, Firefox, Safari.
 --

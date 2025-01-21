@@ -1,9 +1,9 @@
 function main() {
 	console.log("main method start");
-	//redeclaration();
+	redeclaration();
 	//usageBeforeDeclaration();
 	//declarationAndDefination();
-	reAssignment();
+	//reAssignment();
 	//blockScope();
 	//hoisting();
 	//redeclarationAndBlockScope();

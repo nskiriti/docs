@@ -6,11 +6,11 @@ function main() {
 	//division();
 	//reminder();
 	//exponentiation();
-	//increment1();
+	increment1();
 	//increment2();
 	//decrement1();
 	//decrement2();
-	precedence();
+	//precedence();
 	console.log("main method end");
 }
 

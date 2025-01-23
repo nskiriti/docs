@@ -1,0 +1,90 @@
+What is constructor?
+The constructor is a special method.
+It has to have the exact name as "ClassName".
+It is executed automatically when a new object is creating.
+It is used to initialize object properties.
+--
+syntax:
+    ClassName() {}
+	
+    ClassName(type org1, type org2, type org3) {
+        this.prop1 = org1;
+        this.prop2 = org2;
+        this.prop3 = org3;
+    }
+ 
+Example:
+
+    public Employees() {}
+    
+    public Employees(int employeeId, String email, int phoneNumber) {
+        this.employeeId = employeeId;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+Rules to write constructors:
+Rule 1
+Name of the constructor and name of the class must be same.
+Example:
+	class Employees {
+	public Employees() {
+		System.out.println("No org Constructor");
+	}
+--
+Rule 2
+Return type concept is not applicaable for constructor even void also.
+If we are declaring the return type for the constructor, we don't get any
+compile time error and run time error, compiler simply treats it as a 
+method.
+    Example:
+    class Employees {
+	public Employees() {
+		System.out.println("This is no org Constructor");
+	}
+	public void Employees() {
+		System.out.println("This is method");
+	}
+}
+It is legal to have a method name is exaclty same as a class name, but not 
+recomended.
+Rule 3
+applicable modifiers for the constructor are public, default, private, 
+protected. If we are using any other modifier we will get compile time error.
+==
+default constructor:
+    compiler added constrctor in .class file is called as a default constructor.
+    If developer won't write atleast one constructor in .java file, 
+    then java compiler will add default constructor in .class file at the time 
+    of compilcation time.
+    syntax:
+    ClassName() {
+        //NO Code here
+    }
+Example:
+public class Employees {
+	public static void main(String[] args) {
+		System.out.println("This is main method");
+		Employees employees = new Employees();
+	}
+}
+no org constructor:
+    developer added constrctor in .java file without arguments is called no org 
+    constructor.
+    if developer writes atleat one constructor in .java file, then java 
+    compiler won't adds a default constructor in .class file.
+    syntax:
+     syntax:
+    ClassName() {
+        //Write code here
+    }
+Example:
+public class Employees {
+    Employees() {
+        System.out.println("This is no org constructor");
+    }
+	public static void main(String[] args) {
+		System.out.println("This is main method");
+		Employees employees = new Employees();
+	}
+}
+org constructor:

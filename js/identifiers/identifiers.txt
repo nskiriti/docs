@@ -10,3 +10,4 @@ What are the rules for declaring identifiers?
 	Case sensitive.
 	No length limit.
 	reserved words are not allowed.
+	camel case is recommended for ease of understanding.

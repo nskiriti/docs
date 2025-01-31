@@ -30,7 +30,6 @@ What are Line Length and Line Breaks?
     The best place to break a line after an operator.
 --
 What is the use of JavaScript Code Blocks?
-    JavaScript statements can be grouped together in code blocks inside the 
-    curly braces.
+    JavaScript statements can be grouped together in code blocks inside the curly braces.
     And also you can execute the statements together.
 --

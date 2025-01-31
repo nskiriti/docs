@@ -11,7 +11,9 @@ Rules:
     no parameters ()
     one parameters (p1)
     two parameters (p1, p2)
-    unlimited parameters (...params)
+    unlimited parameters (...params)  arr1 = [0,1,2,3,4,5,6,7,8,9]
     arguments are in a array object called "arguments"
     arguments are passed by a value.
     objects are passed by reference.
+
+    

@@ -27,3 +27,22 @@ Required software:
 1. Node js
 2. VS Code
 3. React developer tools Chrome extension
+
+
+
+Prerequisites for React - Akshay Saini
+--------------------------------------
+1. Variables
+2. functions
+- arrow functions
+-high order functions
+3. Array and objects
+-destructuring , rest , spread 
+4.conditional operator
+5.optional chaining
+6.array methods- map ,filter ,reduce ,sort
+7.event listeners - on click , on submit
+8. SetIntervals and setTiemout 
+9.callbacks , callbacks hell , promises , promise api
+10.async /await 
+11. Try /catch

@@ -29,7 +29,7 @@ Increment ++ increases a variable by 1.
 	
 	Both of these statements do the same thing: increase value by 1.
 	But there is a difference between postfix increment and prefix increment.
-		The postfix form x++ also increment x value but returns the old value.
+		The postfix form x++ also increment x value but returns the previous value.
 		The prefix form ++y also increment x value but returns the new value.
 
 Note:

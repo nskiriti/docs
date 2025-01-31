@@ -152,4 +152,15 @@ we need return keyword, and the curly brackets,
 	If our code block having multi line statements, 
 	and returning the value at the end of code block.
 --
+in case of anonymous function, we can call using () which is to be written 
+immediately after function definition and declaration
+--
+difference between function with return statement and without return statement?
+when we write return statement, we meant to display the value it is returning,
+so either we write holding mechanism (console.log() or document.write() method 
+or document.getElementByID() or similar methods)inside function definition or use
+ additional variable to print/display(while calling).
 
+ What happens when dont write return statemnet and execute a function?
+ when we call using function name, it returns undefined as value. since 
+ we are not holding the return value in function definition.

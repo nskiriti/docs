@@ -17,7 +17,7 @@ href attribute
 	The <a> tag defines a hyperlink.
 	The href attribute specifies the URL of the page.
 Example:
-	<a href="https://www.w3schools.com">Visit W3Schools</a>
+	<a href="https://www.w3schools.com" >Visit W3Schools</a>
 --
 src attribute
 	The <img> tag is used to embed an image in html page.
@@ -27,7 +27,7 @@ Example:
 --
 alt attribute
 	The alt attribute of an <img> tag specifies an alterante text for an image, 
-	if the image for some reason cannot displayed.
+	if the image for some reason cannot be displayed.
 	This can be due to slow connection, or an error in the src attribute.
 Example:
 	<img src="img_girl.jpg" alt="Girl with a jacket">
@@ -36,7 +36,7 @@ style attribute
 	The style attribute is used to add style to an element, such as color, 
 	font, size and more.
 Example:
-	<p style="color:green;">This is a pink para.</p>
+	<p style="color:green;">This is a green para.</p>
 --
 lang Attribute
 	You should always include the lang attribute inside the <html> tag, 

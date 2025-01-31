@@ -1,6 +1,6 @@
 Topics					covered		practice	interview
-BOM						No			No			No
-DOM						No			No			No
+BOM						Yes			Yes			No
+DOM						Yes			Yes			No
 Home					Yes			Yes			No
 Introduction			Yes			Yes			No
 Whereto					Yes			Yes			No
@@ -15,8 +15,8 @@ Var						Yes			Yes			No
 Let						Yes			Yes			No
 Const					Yes			Yes			No
 Operators				Yes			Yes			No
-Datatype                No			No			No       
-Functions               No			No			No
+Datatype                Yes			Yes			No       
+Functions               Yes			Yes			No
 Conditions              No			No			No
 Loops  					No			No			No
 New Keyword             No          No          No
@@ -26,8 +26,8 @@ Scope					No          No          No
 Hoisting				No          No          No
 Strict Mode				No          No          No
 HTTP Methods
-	GET					No          No         No
-	POST				No          No         No
+	GET					No          No          No
+	POST				No          No          No
 	PUT					no        	no        	no
 	Delete				no	        no         	no
 --
@@ -64,3 +64,22 @@ Style guide
 	</body>
 
 </html>
+{JS(1 week)- React()} + {HTML + CSS}
+--
+Prerequisites for React - Akshay Saini
+--------------------------------------
+1. Variables
+2. functions
+- arrow functions
+-high order functions
+3. Array and objects
+-destructuring , rest , spread 
+4.conditional operator
+5.optional chaining
+6.array methods- map ,filter ,reduce ,sort
+7.event listeners - on click , on submit
+8. SetIntervals and setTiemout 
+9.callbacks , callbacks hell , promises , promise api
+10.async /await 
+11. Try /catch
+

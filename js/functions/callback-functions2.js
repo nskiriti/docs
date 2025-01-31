@@ -21,9 +21,9 @@ function print2(res) {
 }
 // passing a function as a parameter
 add3(2, 3, print3);
-function add3(n1, n2, callback) {
+function add3(n1, n2, a) {
   let res = n1 + n2;
-  callback(res);
+  a(res);
 }
 function print3(res) {
   console.log(res);

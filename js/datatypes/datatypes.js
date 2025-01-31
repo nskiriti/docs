@@ -2,12 +2,12 @@ function main() {
   console.log("main function start");
   // undefinedFun();
   // nullFun();
-  // number();
-  // bigint();
-  // string();
+  //number();
+  //bigint();
+   //string();
   // boolean();
   // dynamic();
-  // arrays();
+  //arrays();
   objects();
   console.log("main function end");
 }
@@ -26,7 +26,7 @@ function nullFun() {
   console.log("nullFun function end");
    console.log("main function start");
    //undefined1();
-   //null1();
+   null1();
    //number();
    //bigint();
    //string();
@@ -183,4 +183,3 @@ function objects() {
 	console.log("The value of o1 = " + o1);
 	console.log("The datatype of o1 = " + typeof o1);
 }
-main();

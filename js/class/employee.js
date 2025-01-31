@@ -5,7 +5,7 @@ class Employee {
     // Properties are declared in constructor itself
     // A class may only have one constructor
     // constructor with no arguments
-     constructor() {}
+     //constructor() {}
     // constructor with arguments
     constructor(employeeId, email, phoneNumber) {
         this.employeeId = employeeId;

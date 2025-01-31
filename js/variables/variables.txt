@@ -60,7 +60,7 @@ Why we should not use var?
 --
 FAQs
 ==
-What is the difference between undefined, NaN?
+What is the difference between undefined, NaN?  DIA - declaration let x; initialization x =20; assignment x= 30;
 What is the difference between var, let and const?
 			Scope	Redeclare	Reassign	Hoisted		Binds this
 	var		No		Yes			Yes			Yes			Yes
@@ -71,3 +71,4 @@ What is the difference between var, let and const?
 --
 In 2015, JS new version, ES6 is released. Let & const were introduced to declare a variable.
 log is a method to print in console.	
+

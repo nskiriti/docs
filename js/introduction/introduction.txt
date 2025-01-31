@@ -20,11 +20,12 @@ Example:
 Can javascript change CSS styles?
 	Yes, javascript can change the CSS styles.
 Example:
-	document.getElementById("p1").style.color = "green";
+	document.getElementById("p1").style.color = "green";	
 --
 Can javascript hide HTML elements?
 	Yes, It can hide elements by changing the display style as "none".
 	It can show hidden elements by changing the display style as "initial".
+	
 Example:
 	document.getElementById("p2").style.display = "none";
 Example:
@@ -71,4 +72,4 @@ What are the Advantages of External JavaScript?
 	Cached Javascript files can speed up page loads.
 --
 FAQS
-	What is difference between display:none and visibility:hidden?
+	What is difference between display:none and visibility:hidden? hidden leaves space.

@@ -1,1 +1,2 @@
-image = 10;
+let byte = 23;
+console.log(byte);

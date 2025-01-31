@@ -59,6 +59,20 @@ What are empty HTML elements?
 				<br>
 			</body>
 		</html>
+		
+		1.<br>: Inserts a line break. 
+			
+		2.<img>: Embeds an image.
+		
+		3.<input>: Defines an input field.
+		
+		4.<meta>: Provides metadata about the HTML document.
+		
+		5.<link>: Defines the relationship between the current document and an external resource, often used to link to stylesheets.
+		
+		6.<hr>: Inserts a horizontal rule (line).
+		
+
 --
 HTML is not case sensitive
 	HTML tags are not case sensitive: <p> means the same as <P>.

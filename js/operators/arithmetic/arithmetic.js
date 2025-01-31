@@ -75,12 +75,15 @@ function increment1() {
 	let y = 3;
 	console.log(x); //3
 	console.log(y); //3
+	
 	x = x++; //3 assigned value
 	y = ++y; //4
-	console.log(x); //3
-	console.log(y); //4
+	console.log("x =" + x++); //
 	
-	console.log(x++); //3
+	console.log("y =" + y); //4
+	console.log(x); //
+	console.log(x++); //4, value =5;
+	console.log(x++); //
 	console.log(++y); //5
 	
 	x = x++; //4
@@ -94,27 +97,34 @@ function increment1() {
 	console.log("increment1 method end");
 }
 
+/* x++ is a post-increment operation.
+In post-increment (x++):
+The current value of x (which is 3) is returned first.
+Then, x is incremented.
+But here, x = x++ causes the old value (3) to be reassigned to x.
+So, x remains 3.*/
+
 function increment2() {
 	console.log("increment2 method start");
 	let x = 3;
 	let y = 3;
-	console.log(x); //3
-	console.log(y); //3
+	console.log(x); //
+	console.log(y); //
 	let a = x++;
 	let b = ++y;
-	console.log(x); //4
-	console.log(y); //4
-	console.log(a); //3
-	console.log(b); //4
+	console.log(x); //
+	console.log(y); //
+	console.log(a); //
+	console.log(b); //
 	
-	console.log(x++); //4
-	console.log(++y); //5
+	console.log(x++); //
+	console.log(++y); //
 	
-	console.log(x++); //5
-	console.log(++y); //6
+	console.log(x++); //
+	console.log(++y); //
 	
-	console.log(x++); //6
-	console.log(++y); //7
+	console.log(x++); //
+	console.log(++y); //
 	console.log("increment2 method end");
 }
 
@@ -122,18 +132,18 @@ function decrement1() {
 	console.log("decrement1 method start");
 	let x = 3;
 	let y = 3;
-	console.log(x); //3
-	console.log(y); //3
-	x = x--; //3
-	y = --y; //2
-	console.log(x); //3
-	console.log(y); //2
+	console.log(x); //
+	console.log(y); //
+	x = x--; //
+	y = --y; //
+	console.log(x); //
+	console.log(y); //
 	
-	console.log(x--); //3
-	console.log(--y); //1
+	console.log(x--); //
+	console.log(--y); //
 	
-	x = x--; //2
-	y = --y; //0
+	x = x--; //
+	y = --y; //
 	console.log(x); //2
 	console.log(y); //0
 	

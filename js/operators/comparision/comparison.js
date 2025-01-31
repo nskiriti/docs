@@ -1,8 +1,8 @@
 function main() {
 	console.log("main method start");
-	comparison();
-	//stringComparison();
-	console.log("main method end");
+	//comparison();
+	stringComparison();
+	console.log("main method end");	
 }
 
 function comparison() {
@@ -22,14 +22,14 @@ function comparison() {
 
 function stringComparison() {
 	console.log("stringComparison method start");
-	let a = "Hello";
-	let b = "Hii";
+	let a = "hello";
+	let b = "HELLO";
 	//console.log(a == b); //false
 	//console.log(a === b); //false
 	//console.log(a != b); //true
 	//console.log(a !== b); //true
-	//console.log(a > b); //false
-	//console.log(a < b); //true
+	console.log(a > b); //false
+	console.log(a < b); //true
 	console.log(a >= b); //false
 	console.log(a <= b); //true
 	console.log("stringComparison method end");

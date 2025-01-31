@@ -2,5 +2,13 @@ psa- Problem solving approach
 when there is a problem - try to solve yourself!
 how much time you spend? - 1 hour(docs)
                          - Google (stack overflow)
+						 - AI tool
 						 - Team lead/colleague.
 						 - Take external support(outside organisation)
+						 
+	Notepad++ word wrap settings:
+	settings>preferences>margin/border/edges>vertical edge setting
+
+	How do the same thing in VScode?
+
+					 

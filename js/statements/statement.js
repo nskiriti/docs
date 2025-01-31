@@ -14,7 +14,8 @@ b = 10;
 c = a * b;
 console.log("multiplication of "+ a + " and " + b + " = "+ c );
 
-a = 12;
+a = 
+12;
 b = 4;
 c = a % b;
 d = a / b;

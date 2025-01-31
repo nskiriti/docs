@@ -80,7 +80,7 @@ What are Empty Values?
 --
 What is undefined?
 	undefined is a special value and special type of its own.
-	If a variable is declared, but not defined/assigned, 
+	If a variable is declared, but not defined/assigned or initialised, 
 	then its value is undefined and its datatype is also undefined.
 	undefined is a default/initial value for undefined/unassigned variable.
 	undefined means "value is not defined/assigned".

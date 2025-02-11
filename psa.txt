@@ -10,5 +10,6 @@ how much time you spend? - 1 hour(docs)
 	settings>preferences>margin/border/edges>vertical edge setting
 
 	How do the same thing in VScode?
+	file>preferences>settings>word-wrap(column) and 80 word selection in wordwrapcolumn.
 
 					 

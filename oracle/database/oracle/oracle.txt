@@ -18,7 +18,7 @@ How to connect oracle database in windows?
 	Click on SQL command line application.
 	Then it will open sql command line application in the command prompt.
 	Then we have to connect sys user with the below command.
-	sql> conn sys as sysdba; or connect sys as sysdba;
+	sql> conn sys as sysdba; or connect sys as sysdba;(; is must to end every statement)
 	It will ask you provide the password so please provide the sys password 
 	(oracle) and press enter.
 	If password is correct it will shows as connected.
@@ -131,4 +131,6 @@ example: delete employee (since there might be 5 tables with an employee details
 
 Primary key cannot be null and is unique column of the table.
 a group of tables can be linked using foreign key, which is a primary key of another table.
-Unique key can be null.		
+Unique key can be null.	
+
+----	

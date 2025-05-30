@@ -1,6 +1,0 @@
-what is SonarLint?
-SonarLint is a free and open-source IDE plugin for static code analysis.  It is the first line of defense, designed to detect coding issues in real-time. many code attributes, such as maintainability, reliability, and security issues are checked.
-
-Sonar’s IDE extensions are available for IntelliJ (and other JetBrains IDEs), Visual Studio, VS Code, and Eclipse, and can be installed directly from your IDE's plugin marketplace. 
-
-The Sonar solution is designed to help you achieve a state of Clean Code, that is, code whose attributes make your software secure, reliable, and maintainable. Security, reliability, and maintainability are called software qualities.

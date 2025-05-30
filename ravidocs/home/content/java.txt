@@ -1,7 +1,0 @@
-Topic				    covered			practice		interview
-introduction			yes				yes             yes
-identifiers 			yes				yes             yes
-reserved-words			yes				yes             yes
-datatypes   			yes				yes             yes
-literals    			yes				yes             yes
-arrays      			yes				yes             yes

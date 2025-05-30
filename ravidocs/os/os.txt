@@ -1,9 +1,0 @@
-Server Hardware -Intel Xeon
-
-Server OS - Linux - build by redhat
-
-Virtual machine - JVM
-Server - Tomcat server
-
-App - HRMS
-

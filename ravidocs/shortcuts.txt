@@ -1,4 +1,0 @@
-cmd command -cls = claer screen
-refer node.txt to run a js file
-Database:
- hr/hr

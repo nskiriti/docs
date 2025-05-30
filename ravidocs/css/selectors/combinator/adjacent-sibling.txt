@@ -1,3 +1,0 @@
-adjacent sibling selector (+)
-    immediate sibling
-    select an element that is directly after another specific element.

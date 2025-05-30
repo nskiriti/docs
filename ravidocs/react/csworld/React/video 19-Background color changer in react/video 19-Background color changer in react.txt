@@ -1,5 +1,0 @@
-NOTES: video 19:Background color changer in react  
-Date: 23/oct/2024
-
-#todo
-

@@ -1,5 +1,0 @@
-1. What are Hooks?
-2. What is useState? => functions triggered by react 
-3. What is useEffect?
-4. How React forms were created without using hooks?
-5. TODO  getdepartments or employeesview?

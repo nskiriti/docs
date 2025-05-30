@@ -1,4 +1,0 @@
-What is GitHub Desktop?
-GitHub Desktop is a free, open source application that helps you to work with 
-files hosted on GitHub or other Git hosting services.
-https://docs.github.com/en/desktop

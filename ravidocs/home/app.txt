@@ -1,8 +1,0 @@
-
-hr-web (web application) HTML, CSS, JavaScript, TypeScript, nodeJs.
-
-hr-service (web services) - java spring-boot, Hibernate, JPA, J2EE.
-
-hr-schema (Database) - MySQL, Oracle, PostgresSQL.
-
-HTTP-Server --> Tomcat-Server --> hr-web --> hr-service -->	data-base

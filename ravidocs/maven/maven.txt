@@ -1,4 +1,0 @@
- What is Maven?
- 
- Maven is a Java packaging manager similar to NPM.
- JVM == NodeJs.

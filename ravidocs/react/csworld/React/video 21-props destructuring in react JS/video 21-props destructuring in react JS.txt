@@ -1,8 +1,0 @@
-NOTES: video 21:props destructuring in react JS
-Date: 23/oct/2024
-
-Props destructuring: 
-
-Props? : When we call one component in another component, inputs passed from parent component to child component is called Props.
-
-Props destructuring: helps in passing down props in simple way. by using spread operator in parent component and object destructuring in child components Argument.

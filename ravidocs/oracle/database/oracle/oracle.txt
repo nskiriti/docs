@@ -38,12 +38,14 @@ What is the difference between schema and user?
 	If there is no users for Schema, then schema acts like a user.
 --
 How to connect HR Schema in Oracle database?
+	How to check the correct user? => select user from dual (a temporary table)
 	Connect Oracle database with sys user
 	Connect hr schema by typing the below command
 	sql> conn hr;
 	it will ask you to provide the password so please provide the sys password 
 	(hr) and press enter.
 	If password is correct it will shows as connected.
+	
 --
 How to check the sysdate in oracle database?
 	sql> select sysdate from dual;
@@ -87,7 +89,7 @@ How to connect hr schema?
 --
 How to see all records from the table?
 	Syntax
-		select * from <table-name>;
+		select * from <table-name>; tab = table of tables.
 	Example
 		select * from employees;
 --
